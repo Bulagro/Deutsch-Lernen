@@ -1,0 +1,1435 @@
+{
+    "abfaharen": [
+        0,
+        [
+            "salir",
+            "partir"
+        ]
+    ],
+    "abholen": [
+        0,
+        [
+            "recoger"
+        ]
+    ],
+    "absender": [
+        0,
+        [
+            "remitente",
+            "transmisor"
+        ]
+    ],
+    "alt": [
+        0,
+        [
+            "viejo"
+        ]
+    ],
+    "an": [
+        0,
+        [
+            "para",
+            "sobre",
+            "junto a"
+        ]
+    ],
+    "anbieten": [
+        0,
+        [
+            "proponer",
+            "ofertar"
+        ]
+    ],
+    "anfangen": [
+        0,
+        [
+            "empezar",
+            "iniciar",
+            "comenzar"
+        ]
+    ],
+    "ankommen": [
+        0,
+        [
+            "llegar",
+            "venir"
+        ]
+    ],
+    "anmachen": [
+        0,
+        [
+            "encender",
+            "prender"
+        ]
+    ],
+    "anreisen": [
+        0,
+        [
+            "venir",
+            "llegar"
+        ]
+    ],
+    "anstellen": [
+        0,
+        [
+            "emplear",
+            "contratar"
+        ]
+    ],
+    "anziehn": [
+        0,
+        [
+            "vestirse"
+        ]
+    ],
+    "april": [
+        0,
+        [
+            "abril"
+        ]
+    ],
+    "auf": [
+        0,
+        [
+            "en",
+            "hasta",
+            "por"
+        ]
+    ],
+    "auf sein": [
+        0,
+        [
+            "estar abierto",
+            "estar encendido"
+        ]
+    ],
+    "aufh\u00f6ren": [
+        0,
+        [
+            "parar",
+            "cesar",
+            "terminar",
+            "interrumpir",
+            "acabar"
+        ]
+    ],
+    "aufstehen": [
+        0,
+        [
+            "levantarse",
+            "ponerse de pie",
+            "estar abierto"
+        ]
+    ],
+    "august": [
+        0,
+        [
+            "agosto"
+        ]
+    ],
+    "aus": [
+        0,
+        [
+            "concluido",
+            "terminado",
+            "acabado",
+            "entre",
+            "desde",
+            "por"
+        ]
+    ],
+    "aus sein": [
+        0,
+        [
+            "estar apagado",
+            "estar encendido"
+        ]
+    ],
+    "ausf\u00fcllen": [
+        0,
+        [
+            "llenar",
+            "rellenar"
+        ]
+    ],
+    "ausmachen": [
+        0,
+        [
+            "apagar",
+            "extinguir"
+        ]
+    ],
+    "aussehen": [
+        0,
+        [
+            "apariencia",
+            "mirada"
+        ]
+    ],
+    "aussteigen": [
+        0,
+        [
+            "bajar",
+            "salir",
+            "retirarse",
+            "volver"
+        ]
+    ],
+    "ausziehn": [
+        0,
+        [
+            "desvestirse"
+        ]
+    ],
+    "au\u00dferdem": [
+        0,
+        [
+            "tambi\u00e9n",
+            "adem\u00e1s",
+            "adem\u00e1s de"
+        ]
+    ],
+    "bald": [
+        0,
+        [
+            "pronto",
+            "en breve",
+            "en poco"
+        ]
+    ],
+    "bar": [
+        0,
+        [
+            "efectivo"
+        ]
+    ],
+    "behandeln": [
+        0,
+        [
+            "tratar",
+            "manejar"
+        ]
+    ],
+    "bei": [
+        0,
+        [
+            "en",
+            "a",
+            "con"
+        ]
+    ],
+    "beibringen": [
+        0,
+        [
+            "ense\u00f1ar"
+        ]
+    ],
+    "beide": [
+        0,
+        [
+            "ambos",
+            "los dos"
+        ]
+    ],
+    "bekannt": [
+        0,
+        [
+            "conocido"
+        ]
+    ],
+    "bekommen": [
+        0,
+        [
+            "conseguir",
+            "obtener"
+        ]
+    ],
+    "benutzen": [
+        0,
+        [
+            "emplear",
+            "utilizar",
+            "usar"
+        ]
+    ],
+    "bequem": [
+        0,
+        [
+            "c\u00f3modo"
+        ]
+    ],
+    "beraten": [
+        0,
+        [
+            "aconsejar",
+            "orientar"
+        ]
+    ],
+    "bereiten": [
+        0,
+        [
+            "preparar"
+        ]
+    ],
+    "bereits": [
+        0,
+        [
+            "ya"
+        ]
+    ],
+    "besetzt": [
+        0,
+        [
+            "ocupado"
+        ]
+    ],
+    "besichtigen": [
+        0,
+        [
+            "visitar"
+        ]
+    ],
+    "bestellen": [
+        0,
+        [
+            "ordenar",
+            "pedir",
+            "encargar"
+        ]
+    ],
+    "bestimmt": [
+        0,
+        [
+            "ciertamente"
+        ]
+    ],
+    "besuchen": [
+        0,
+        [
+            "visitar"
+        ]
+    ],
+    "bieten": [
+        0,
+        [
+            "ofrecer"
+        ]
+    ],
+    "bis": [
+        0,
+        [
+            "hasta"
+        ]
+    ],
+    "blau": [
+        0,
+        [
+            "azul"
+        ]
+    ],
+    "bleiben": [
+        0,
+        [
+            "quedarse"
+        ]
+    ],
+    "brauchen": [
+        0,
+        [
+            "necesidad"
+        ]
+    ],
+    "braun": [
+        0,
+        [
+            "caf\u00e9"
+        ]
+    ],
+    "breit": [
+        0,
+        [
+            "ancho"
+        ]
+    ],
+    "buchstabieren": [
+        0,
+        [
+            "deletrear"
+        ]
+    ],
+    "b\u00f6se": [
+        0,
+        [
+            "malo"
+        ]
+    ],
+    "circa": [
+        0,
+        [
+            "aproximadamente",
+            "m\u00e1s o menos"
+        ]
+    ],
+    "da": [
+        0,
+        [
+            "all\u00e1",
+            "all\u00ed",
+            "ah\u00ed"
+        ]
+    ],
+    "dahin": [
+        0,
+        [
+            "all\u00e1",
+            "all\u00ed",
+            "ah\u00ed"
+        ]
+    ],
+    "darauf": [
+        0,
+        [
+            "al respecto",
+            "luego"
+        ]
+    ],
+    "das Angebot": [
+        0,
+        [
+            "la oferta"
+        ]
+    ],
+    "das Ausland": [
+        0,
+        [
+            "el extranjero"
+        ]
+    ],
+    "das Bad": [
+        0,
+        [
+            "el ba\u00f1o"
+        ]
+    ],
+    "das Bein": [
+        0,
+        [
+            "la pierna"
+        ]
+    ],
+    "das Bereich": [
+        0,
+        [
+            "el \u00e1rea",
+            "la zona"
+        ]
+    ],
+    "das Bild": [
+        0,
+        [
+            "la foto"
+        ]
+    ],
+    "das Brot": [
+        0,
+        [
+            "el pan"
+        ]
+    ],
+    "das Dorf": [
+        0,
+        [
+            "el pueblo"
+        ]
+    ],
+    "das Ergebnis": [
+        0,
+        [
+            "el resultado"
+        ]
+    ],
+    "das Feld": [
+        0,
+        [
+            "el campo"
+        ]
+    ],
+    "das Geschwister": [
+        0,
+        [
+            "el hermano"
+        ]
+    ],
+    "das Getreide": [
+        0,
+        [
+            "el cereal",
+            "los granos"
+        ]
+    ],
+    "das Hun": [
+        0,
+        [
+            "el pollo"
+        ]
+    ],
+    "das Lebensmittel": [
+        0,
+        [
+            "los v\u00edveres"
+        ]
+    ],
+    "das Mehl": [
+        0,
+        [
+            "la harina"
+        ]
+    ],
+    "das Pferd": [
+        0,
+        [
+            "el caballo"
+        ]
+    ],
+    "das Salz": [
+        0,
+        [
+            "la sal"
+        ]
+    ],
+    "das Schwein": [
+        0,
+        [
+            "el cerdo"
+        ]
+    ],
+    "das Wasser": [
+        0,
+        [
+            "el agua"
+        ]
+    ],
+    "dazu": [
+        0,
+        [
+            "para",
+            "para eso"
+        ]
+    ],
+    "der Abend": [
+        0,
+        [
+            "la tarde"
+        ]
+    ],
+    "der Abflug": [
+        0,
+        [
+            "el despegue"
+        ]
+    ],
+    "der Anfang": [
+        0,
+        [
+            "el inicio",
+            "el comienzo"
+        ]
+    ],
+    "der Anschluss": [
+        0,
+        [
+            "la conexi\u00f3n",
+            "la uni\u00f3n",
+            "el enlace"
+        ]
+    ],
+    "der Apfel": [
+        0,
+        [
+            "la manzana"
+        ]
+    ],
+    "der Aufzug": [
+        0,
+        [
+            "el elevador",
+            "el ascensor"
+        ]
+    ],
+    "der Ausflug": [
+        0,
+        [
+            "la excursi\u00f3n"
+        ]
+    ],
+    "der Ausweis": [
+        0,
+        [
+            "la identificaci\u00f3n"
+        ]
+    ],
+    "der Bahnsteig": [
+        0,
+        [
+            "el and\u00e9n"
+        ]
+    ],
+    "der Bauch": [
+        0,
+        [
+            "el vientre"
+        ]
+    ],
+    "der Bauer": [
+        0,
+        [
+            "el granjero"
+        ]
+    ],
+    "der Baum": [
+        0,
+        [
+            "el \u00e1rbol"
+        ]
+    ],
+    "der Beamte": [
+        0,
+        [
+            "el oficial"
+        ]
+    ],
+    "der Bekannte": [
+        0,
+        [
+            "el conocido"
+        ]
+    ],
+    "der Bereich": [
+        0,
+        [
+            "el \u00e1rea",
+            "la zona"
+        ]
+    ],
+    "der Beruf": [
+        0,
+        [
+            "la profesi\u00f3n"
+        ]
+    ],
+    "der Bewohner": [
+        0,
+        [
+            "el habitante",
+            "el residente"
+        ]
+    ],
+    "der Bleistift": [
+        0,
+        [
+            "el l\u00e1piz"
+        ]
+    ],
+    "der Blick": [
+        0,
+        [
+            "la vista"
+        ]
+    ],
+    "der Bogen": [
+        0,
+        [
+            "el arco"
+        ]
+    ],
+    "der Buchstabe": [
+        0,
+        [
+            "la letra"
+        ]
+    ],
+    "der B\u00e4r": [
+        0,
+        [
+            "el oso"
+        ]
+    ],
+    "der Dienstag": [
+        0,
+        [
+            "el martes"
+        ]
+    ],
+    "der Donnerstag": [
+        0,
+        [
+            "el jueves"
+        ]
+    ],
+    "der Ehemann": [
+        0,
+        [
+            "el marido",
+            "el esposo"
+        ]
+    ],
+    "der Eintritt": [
+        0,
+        [
+            "la entrada",
+            "la admisi\u00f3n",
+            "el ingreso"
+        ]
+    ],
+    "der Empf\u00e4nger": [
+        0,
+        [
+            "el destinatario"
+        ]
+    ],
+    "der Erwachsene": [
+        0,
+        [
+            "el adulto"
+        ]
+    ],
+    "der Erz\u00e4hler": [
+        0,
+        [
+            "el narrador"
+        ]
+    ],
+    "der Freitag": [
+        0,
+        [
+            "el viernes"
+        ]
+    ],
+    "der Fr\u00fchling": [
+        0,
+        [
+            "la primavera"
+        ]
+    ],
+    "der Handwerker": [
+        0,
+        [
+            "el artesano"
+        ]
+    ],
+    "der Herbst": [
+        0,
+        [
+            "el oto\u00f1o"
+        ]
+    ],
+    "der Hof": [
+        0,
+        [
+            "la granja",
+            "la finca",
+            "el corral"
+        ]
+    ],
+    "der Hund": [
+        0,
+        [
+            "el perro"
+        ]
+    ],
+    "der Laden": [
+        0,
+        [
+            "la tienda",
+            "el negocio"
+        ]
+    ],
+    "der Mann": [
+        0,
+        [
+            "el hombre"
+        ]
+    ],
+    "der Mittwoch": [
+        0,
+        [
+            "el mi\u00e9rcoles"
+        ]
+    ],
+    "der Montag": [
+        0,
+        [
+            "el lunes"
+        ]
+    ],
+    "der Samstag": [
+        0,
+        [
+            "el s\u00e1bado"
+        ]
+    ],
+    "der Sonntag": [
+        0,
+        [
+            "el domingo"
+        ]
+    ],
+    "der Steig": [
+        0,
+        [
+            "el sendero"
+        ]
+    ],
+    "der Strand": [
+        0,
+        [
+            "la playa"
+        ]
+    ],
+    "der Teich": [
+        0,
+        [
+            "el estanque"
+        ]
+    ],
+    "der Vogel": [
+        0,
+        [
+            "el p\u00e1jaro"
+        ]
+    ],
+    "der Weg": [
+        0,
+        [
+            "el camino",
+            "el sendero"
+        ]
+    ],
+    "der Winter": [
+        0,
+        [
+            "el invierno"
+        ]
+    ],
+    "deshalb": [
+        0,
+        [
+            "por lo tanto",
+            "por eso"
+        ]
+    ],
+    "dezember": [
+        0,
+        [
+            "diciembre"
+        ]
+    ],
+    "die Angestellte": [
+        0,
+        [
+            "el asalariado",
+            "el empleado"
+        ]
+    ],
+    "die Anmeldung": [
+        0,
+        [
+            "el registro",
+            "la inscripci\u00f3n"
+        ]
+    ],
+    "die Anrede": [
+        0,
+        [
+            "el saludo"
+        ]
+    ],
+    "die Ansage": [
+        0,
+        [
+            "el anuncio"
+        ]
+    ],
+    "die Anzeige": [
+        0,
+        [
+            "la noticia",
+            "la rese\u00f1a"
+        ]
+    ],
+    "die Aufgabe": [
+        0,
+        [
+            "la tarea",
+            "la obligaci\u00f3n",
+            "el deber"
+        ]
+    ],
+    "die Ausbildung": [
+        0,
+        [
+            "la preparaci\u00f3n"
+        ]
+    ],
+    "die Aussage": [
+        0,
+        [
+            "la declaraci\u00f3n"
+        ]
+    ],
+    "die Bahn": [
+        0,
+        [
+            "el tren"
+        ]
+    ],
+    "die Behandlung": [
+        0,
+        [
+            "el tratamiento"
+        ]
+    ],
+    "die Bekannte": [
+        0,
+        [
+            "la conocida"
+        ]
+    ],
+    "die Birne": [
+        0,
+        [
+            "la pera"
+        ]
+    ],
+    "die Bitte": [
+        0,
+        [
+            "la solicitud"
+        ]
+    ],
+    "die Blume": [
+        0,
+        [
+            "la flor"
+        ]
+    ],
+    "die Ehefrau": [
+        0,
+        [
+            "la esposa",
+            "la mujer"
+        ]
+    ],
+    "die Einkunft": [
+        0,
+        [
+            "la llegada",
+            "la venida"
+        ]
+    ],
+    "die Einladung": [
+        0,
+        [
+            "la invitaci\u00f3n"
+        ]
+    ],
+    "die Entschuldigung": [
+        0,
+        [
+            "la disculpa",
+            "la excusa"
+        ]
+    ],
+    "die Frau": [
+        0,
+        [
+            "la mujer"
+        ]
+    ],
+    "die Hauptstadt": [
+        0,
+        [
+            "la capital"
+        ]
+    ],
+    "die Hefe": [
+        0,
+        [
+            "la levadura"
+        ]
+    ],
+    "die Herkunft": [
+        0,
+        [
+            "el or\u00edgen"
+        ]
+    ],
+    "die Insel": [
+        0,
+        [
+            "la isla"
+        ]
+    ],
+    "die Katze": [
+        0,
+        [
+            "el gato"
+        ]
+    ],
+    "die Kunde": [
+        0,
+        [
+            "el cliente"
+        ]
+    ],
+    "die Maus": [
+        0,
+        [
+            "el rat\u00f3n"
+        ]
+    ],
+    "die N\u00e4he": [
+        0,
+        [
+            "la proximidad",
+            "la cercan\u00eda"
+        ]
+    ],
+    "die Praxis": [
+        0,
+        [
+            "la pr\u00e1ctica",
+            "la consulta"
+        ]
+    ],
+    "die Speise": [
+        0,
+        [
+            "la comida",
+            "el guiso"
+        ]
+    ],
+    "die Umgebung": [
+        0,
+        [
+            "el entorno",
+            "los alrededores"
+        ]
+    ],
+    "die Verwandte": [
+        0,
+        [
+            "los parientes"
+        ]
+    ],
+    "die Vorstellung": [
+        0,
+        [
+            "la idea",
+            "la noci\u00f3n"
+        ]
+    ],
+    "die Zahl": [
+        0,
+        [
+            "el n\u00famero",
+            "el entero"
+        ]
+    ],
+    "die Zutat": [
+        0,
+        [
+            "el ingrediente"
+        ]
+    ],
+    "dort": [
+        0,
+        [
+            "all\u00e1",
+            "all\u00ed",
+            "ah\u00ed"
+        ]
+    ],
+    "drau\u00dfen": [
+        0,
+        [
+            "afuera",
+            "fuera",
+            "al aire libre"
+        ]
+    ],
+    "dr\u00fccken": [
+        0,
+        [
+            "imprimir"
+        ]
+    ],
+    "durch": [
+        0,
+        [
+            "mediante",
+            "a trav\u00e9s de",
+            "gracias a",
+            "por",
+            "por medio de"
+        ]
+    ],
+    "eilig": [
+        0,
+        [
+            "apresuradamente",
+            "r\u00e1pido",
+            "urgente"
+        ]
+    ],
+    "ein Pfund": [
+        0,
+        [
+            "una libra"
+        ]
+    ],
+    "einkaufen": [
+        0,
+        [
+            "ir de compras"
+        ]
+    ],
+    "einladen": [
+        0,
+        [
+            "invitar"
+        ]
+    ],
+    "einsteigen": [
+        0,
+        [
+            "entrar",
+            "subir",
+            "abordar"
+        ]
+    ],
+    "entfernt": [
+        0,
+        [
+            "remoto",
+            "distante"
+        ]
+    ],
+    "erhalten": [
+        0,
+        [
+            "recibir",
+            "obtener"
+        ]
+    ],
+    "erlauben": [
+        0,
+        [
+            "permitir"
+        ]
+    ],
+    "erreichen": [
+        0,
+        [
+            "alcanzar"
+        ]
+    ],
+    "erz\u00e4hlen": [
+        0,
+        [
+            "decir",
+            "contar"
+        ]
+    ],
+    "faul": [
+        0,
+        [
+            "flojo"
+        ]
+    ],
+    "februar": [
+        0,
+        [
+            "febrero"
+        ]
+    ],
+    "fehlendes": [
+        0,
+        [
+            "desaparecido"
+        ]
+    ],
+    "fehlt": [
+        0,
+        [
+            "faltar"
+        ]
+    ],
+    "feststellen": [
+        0,
+        [
+            "verificar",
+            "comprobar"
+        ]
+    ],
+    "gelb": [
+        0,
+        [
+            "amarillo"
+        ]
+    ],
+    "gerade": [
+        0,
+        [
+            "justo",
+            "mismamente",
+            "al mismo tiempo",
+            "exactamente"
+        ]
+    ],
+    "grau": [
+        0,
+        [
+            "gris"
+        ]
+    ],
+    "gr\u00fcn": [
+        0,
+        [
+            "verde"
+        ]
+    ],
+    "her": [
+        0,
+        [
+            "aqu\u00ed"
+        ]
+    ],
+    "hier": [
+        0,
+        [
+            "aqu\u00ed"
+        ]
+    ],
+    "h\u00fcbsch": [
+        0,
+        [
+            "guapo"
+        ]
+    ],
+    "insgesamt": [
+        0,
+        [
+            "en total"
+        ]
+    ],
+    "januar": [
+        0,
+        [
+            "enero"
+        ]
+    ],
+    "juli": [
+        0,
+        [
+            "julio"
+        ]
+    ],
+    "jung": [
+        0,
+        [
+            "j\u00f3ven"
+        ]
+    ],
+    "juni": [
+        0,
+        [
+            "junio"
+        ]
+    ],
+    "kaufen": [
+        0,
+        [
+            "comprar"
+        ]
+    ],
+    "k\u00fcmmern": [
+        0,
+        [
+            "preocupar"
+        ]
+    ],
+    "lassen": [
+        0,
+        [
+            "permitir",
+            "dejar"
+        ]
+    ],
+    "mai": [
+        0,
+        [
+            "mayo"
+        ]
+    ],
+    "mischen": [
+        0,
+        [
+            "revolver",
+            "mezclar"
+        ]
+    ],
+    "m\u00e4rz": [
+        0,
+        [
+            "marzo"
+        ]
+    ],
+    "nehmen": [
+        0,
+        [
+            "tomar",
+            "agarrar"
+        ]
+    ],
+    "november": [
+        0,
+        [
+            "noviembre"
+        ]
+    ],
+    "oktober": [
+        0,
+        [
+            "octubre"
+        ]
+    ],
+    "pflanzen": [
+        0,
+        [
+            "cultivar",
+            "plantar"
+        ]
+    ],
+    "rot": [
+        0,
+        [
+            "rojo"
+        ]
+    ],
+    "schwach": [
+        0,
+        [
+            "d\u00e9bil"
+        ]
+    ],
+    "schwarz": [
+        0,
+        [
+            "negro"
+        ]
+    ],
+    "september": [
+        0,
+        [
+            "septiembre"
+        ]
+    ],
+    "ser Sommer": [
+        0,
+        [
+            "el verano"
+        ]
+    ],
+    "steigen": [
+        0,
+        [
+            "subir",
+            "trepar",
+            "montar"
+        ]
+    ],
+    "stellen": [
+        0,
+        [
+            "proporcionar",
+            "colocar",
+            "suministrar"
+        ]
+    ],
+    "unterschiedlich": [
+        0,
+        [
+            "diferente",
+            "distinto"
+        ]
+    ],
+    "untersuchen": [
+        0,
+        [
+            "investigar",
+            "inspeccionar"
+        ]
+    ],
+    "verbringen": [
+        0,
+        [
+            "pasar",
+            "internar"
+        ]
+    ],
+    "verkaufen": [
+        0,
+        [
+            "vender"
+        ]
+    ],
+    "verschreiben": [
+        0,
+        [
+            "perscribir",
+            "recetar"
+        ]
+    ],
+    "warscheinlich": [
+        0,
+        [
+            "probablemente",
+            "posiblemente"
+        ]
+    ],
+    "weiter": [
+        0,
+        [
+            "siguiente",
+            "m\u00e1s",
+            "adicional"
+        ]
+    ],
+    "wei\u00df": [
+        0,
+        [
+            "blanco"
+        ]
+    ],
+    "wohl": [
+        0,
+        [
+            "bien"
+        ]
+    ],
+    "ziel": [
+        0,
+        [
+            "destino",
+            "objetivo",
+            "meta"
+        ]
+    ],
+    "\u00fcbel": [
+        0,
+        [
+            "enfermo"
+        ]
+    ]
+}
