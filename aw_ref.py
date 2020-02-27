@@ -40,14 +40,14 @@ def print_log():
 def print_words(words_already_in_file:dict, words_to_add:dict):
     """ Prints every registered word. """
     if len(words_to_add) > 0:
-        print('Pending: ')
+        print(f'Pending: ({len(words_to_add)})')
         for word in words_to_add.items():
             de = word[0]
             es = word[1][1]
             print(f' - {de}: {", ".join(es)}')
     
     if len(words_already_in_file) > 0:
-        print('In File:')
+        print(f'In File: ({len(words_already_in_file)})')
         for word in words_already_in_file.items():
             de = word[0]
             es = word[1][1]
