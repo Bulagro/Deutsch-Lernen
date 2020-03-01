@@ -108,12 +108,17 @@ def add_word(de_words:list, es_words:list, words_already_in_file:dict, words_to_
     global log
     for word in de_words:
         # If the word isn't registered - add it.
-        if search_word(word, words_already_in_file, words_to_add) == None:
+        search_result = search_word(word, words_already_in_file, words_to_add)
+        if search_result == None:
             words_to_add[word] = [0, es_words]
             log.append(f'Added: {word}:{es_words}.')
         
         # The word is registered - add a new meaning.
         else:
+            if word not in words_to_add: # Adds that word to the 'words_to_add' dictionary.
+                remove_word(word, words_already_in_file, words_to_add)
+                words_to_add[word] = [0, search_result]
+
             word_meanings = words_to_add[word][1]
             word_meanings += list(set(es_words) - set(word_meanings))
             log.append(f'Updated meanings for {word} -> {word_meanings}.')
