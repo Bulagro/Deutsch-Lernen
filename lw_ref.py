@@ -22,7 +22,6 @@ def select_words(words_in_file:dict, WORD_COUNT:int=50):
     words_list = [] # Contains each dictionary key.
     lowest_count = 0
 
-    # while len(words_list) < WORD_COUNT:
     for word in words_in_file.keys():
         word_data = words_in_file[word]
         if word_data[0] <= lowest_count:
