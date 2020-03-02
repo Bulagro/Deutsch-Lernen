@@ -41,5 +41,30 @@ class LearnTest(unittest.TestCase):
         words_list = l.select_words(words_dict, 3)
         self.assertEqual(words_list, expected_words_list)
 
+    def test_compare_words(self):
+        words_dict = l.read_words_file()
+        compare_result = l.compare_words('guapo', 'hübsch', words_dict)
+        self.assertTrue(compare_result)
+        
+        compare_result = l.compare_words('feo', 'hübsch', words_dict)
+        self.assertFalse(compare_result)
+
+    def test_increase_word_score(self):
+        words = {'hübsch':[0, ['guapo']]}
+        expected_score = 1
+        l.modify_word_score('hübsch', words, 1)
+        self.assertEqual(words['hübsch'][0], expected_score)
+
+    def test_decrease_word_score(self):
+        words = {'hübsch':[1, ['guapo']]}
+        expected_score = 0
+        l.modify_word_score('hübsch', words, -1)
+        self.assertEqual(words['hübsch'][0], expected_score)
+
+        words = {'hübsch':[0, ['guapo']]}
+        expected_score = 0
+        l.modify_word_score('hübsch', words, -1)
+        self.assertEqual(words['hübsch'][0], expected_score)
+
 if __name__ == "__main__":
     unittest.main()
