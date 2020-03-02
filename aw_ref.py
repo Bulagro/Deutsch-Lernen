@@ -84,7 +84,7 @@ def remove_word(word:str, words_already_in_file:dict, words_to_add:dict):
         return False
 
 def read_words_file(file=WORDS_FILE_PATH):
-    """ Saves the contents of worte.json to memory. """
+    """ Saves the contents of 'file' to memory. """
     global log
     try:
         with open(file, 'r') as w:
@@ -131,8 +131,8 @@ def merge_word_lists(words_already_in_file:dict, words_to_add:dict, file=WORDS_F
 
     # This is done to write readable json to the file.
     with open(file, 'w') as word_file:
-        l = json.dumps(words_already_in_file, sort_keys=True, indent=4)
-        word_file.write(l)
+        output = json.dumps(words_already_in_file, sort_keys=True, indent=4)
+        word_file.write(output)
         log.append(f'Successfully added new words to \'{file}\'.')
     
     words_to_add.clear()
