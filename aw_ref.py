@@ -83,7 +83,7 @@ def remove_word(word:str, words_already_in_file:dict, words_to_add:dict):
         print(f'{word} not found.')
         return False
 
-def read_word_list(file=WORDS_FILE_PATH):
+def read_words_file(file=WORDS_FILE_PATH):
     """ Saves the contents of worte.json to memory. """
     global log
     try:
@@ -142,7 +142,7 @@ def main(): # Main
     words_already_in_file = {}
     words_to_add = {}
 
-    words_already_in_file = read_word_list()
+    words_already_in_file = read_words_file()
     if not words_already_in_file:
         print_log()
         exit()
