@@ -14,17 +14,13 @@ from os import system
 WORDS_FILE_PATH = '/home/cristiangotchev/Documents/code/Python/Deutsch-Lernen/worte.json'
 seed(perf_counter)
 
-def select_words(total_words:dict):
-    pass
-
-
 def main():
-    total_words = None
+    words_in_file = None
     # Save all words to memory
     with open(WORDS_FILE_PATH, 'r') as f:
-        total_words = json.loads(f.read())
+        words_in_file = json.load(f)
 
-    new_word = choice(list(total_words.keys()))
+    new_word = choice(list(words_in_file.keys()))
     while True:
         system('cls||clear')
         word = new_word
@@ -36,13 +32,13 @@ def main():
             return None
 
         # Do main loop
-        for i in total_words[word][1]:
+        for i in words_in_file[word][1]:
             if inpt == i:
                 # counter +1
-                new_word = choice(list(total_words.keys()))
+                new_word = choice(list(words_in_file.keys()))
                 break
         else:
-            print('A: ' + ', '.join(total_words[word][1]), end='')
+            print('A: ' + ', '.join(words_in_file[word][1]), end='')
             input('')
 
 if __name__ == "__main__":
