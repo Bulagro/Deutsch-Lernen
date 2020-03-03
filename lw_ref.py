@@ -56,14 +56,14 @@ def re_write_words_file(words_dict:dict, file=WORDS_FILE_PATH):
 
 def main():
     words_dict = read_words_file()
-    word_key_list = select_words(words_dict, 3)
+    word_key_list = select_words(words_dict)
     word_index = 0
 
     while True:
         word = word_key_list[word_index]
         
         system('cls||clear')
-        print(f'\n {word}, {word_key_list}', end='\n\n')
+        print(f'\n {word}', end='\n\n')
         
         usr_input = str(input('>> '))
 
@@ -78,7 +78,7 @@ def main():
             modify_word_score(word, words_dict, 1)
 
             if word_index == len(word_key_list):
-                word_key_list = select_words(words_dict, 3)
+                word_key_list = select_words(words_dict)
                 word_index = 0
             continue
         else:
