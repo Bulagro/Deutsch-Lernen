@@ -117,6 +117,7 @@
         0,
         [
             "levantarse",
+            "pararse",
             "ponerse de pie",
             "estar abierto"
         ]
@@ -207,7 +208,8 @@
         0,
         [
             "tratar",
-            "manejar"
+            "manejar",
+            "manipular"
         ]
     ],
     "bei": [
@@ -336,7 +338,7 @@
     "brauchen": [
         0,
         [
-            "necesidad"
+            "necesitar"
         ]
     ],
     "braun": [
