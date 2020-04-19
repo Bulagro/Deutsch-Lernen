@@ -1,7 +1,7 @@
 import json
 from random import randint
-from learn import WORDS_FILE_PATH
 
+WORDS_FILE_PATH = None
 word_dict = None
 
 with open(WORDS_FILE_PATH, 'r') as f:

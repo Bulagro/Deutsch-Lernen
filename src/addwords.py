@@ -27,7 +27,7 @@ Other:
  - clear                clear the screen
  - exit                 exit """
 
-WORDS_FILE_PATH = '/home/cristogotchev/Documents/Code/Python/Deutsch-Lernen/worte.json'
+WORDS_FILE_PATH = None
 log = []
 
 

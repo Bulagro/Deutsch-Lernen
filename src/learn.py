@@ -5,7 +5,9 @@ TODO:
 """
 import json
 from os import system
-from addwords import WORDS_FILE_PATH
+
+WORDS_FILE_PATH = None
+
 
 def read_words_file(file=WORDS_FILE_PATH):
     """ Saves the contents of 'file' to memory. """
