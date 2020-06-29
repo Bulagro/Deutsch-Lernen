@@ -1,0 +1,3419 @@
+{
+    "0": {
+        "de": [
+            "abfahren"
+        ],
+        "es": [
+            "salir",
+            "partir"
+        ],
+        "points": 0
+    },
+    "1": {
+        "de": [
+            "abholen"
+        ],
+        "es": [
+            "recoger"
+        ],
+        "points": 0
+    },
+    "10": {
+        "de": [
+            "anstellen"
+        ],
+        "es": [
+            "emplear",
+            "contratar"
+        ],
+        "points": 0
+    },
+    "100": {
+        "de": [
+            "der Bauch"
+        ],
+        "es": [
+            "el vientre"
+        ],
+        "points": 0
+    },
+    "101": {
+        "de": [
+            "der Bauer"
+        ],
+        "es": [
+            "el granjero"
+        ],
+        "points": 0
+    },
+    "102": {
+        "de": [
+            "der Baum"
+        ],
+        "es": [
+            "el \u00e1rbol"
+        ],
+        "points": 0
+    },
+    "103": {
+        "de": [
+            "der Beamte"
+        ],
+        "es": [
+            "el oficial"
+        ],
+        "points": 0
+    },
+    "104": {
+        "de": [
+            "der Bekannte"
+        ],
+        "es": [
+            "el conocido"
+        ],
+        "points": 0
+    },
+    "106": {
+        "de": [
+            "der Beruf"
+        ],
+        "es": [
+            "la profesi\u00f3n"
+        ],
+        "points": 0
+    },
+    "107": {
+        "de": [
+            "der Bewohner"
+        ],
+        "es": [
+            "el habitante",
+            "el residente"
+        ],
+        "points": 0
+    },
+    "108": {
+        "de": [
+            "der Bleistift"
+        ],
+        "es": [
+            "el l\u00e1piz"
+        ],
+        "points": 0
+    },
+    "109": {
+        "de": [
+            "der Blick"
+        ],
+        "es": [
+            "la vista"
+        ],
+        "points": 0
+    },
+    "11": {
+        "de": [
+            "anziehn"
+        ],
+        "es": [
+            "vestirse"
+        ],
+        "points": 0
+    },
+    "110": {
+        "de": [
+            "der Bogen"
+        ],
+        "es": [
+            "el arco"
+        ],
+        "points": 0
+    },
+    "111": {
+        "de": [
+            "der Buchstabe"
+        ],
+        "es": [
+            "la letra"
+        ],
+        "points": 0
+    },
+    "112": {
+        "de": [
+            "der B\u00e4r"
+        ],
+        "es": [
+            "el oso"
+        ],
+        "points": 0
+    },
+    "113": {
+        "de": [
+            "der Dienstag"
+        ],
+        "es": [
+            "el martes"
+        ],
+        "points": 0
+    },
+    "114": {
+        "de": [
+            "der Donnerstag"
+        ],
+        "es": [
+            "el jueves"
+        ],
+        "points": 0
+    },
+    "115": {
+        "de": [
+            "der Ehemann"
+        ],
+        "es": [
+            "el marido",
+            "el esposo"
+        ],
+        "points": 0
+    },
+    "116": {
+        "de": [
+            "der Eintritt"
+        ],
+        "es": [
+            "la entrada",
+            "la admisi\u00f3n",
+            "el ingreso"
+        ],
+        "points": 0
+    },
+    "117": {
+        "de": [
+            "der Empf\u00e4nger"
+        ],
+        "es": [
+            "el destinatario"
+        ],
+        "points": 0
+    },
+    "118": {
+        "de": [
+            "der Erwachsene"
+        ],
+        "es": [
+            "el adulto"
+        ],
+        "points": 0
+    },
+    "119": {
+        "de": [
+            "der Erz\u00e4hler"
+        ],
+        "es": [
+            "el narrador"
+        ],
+        "points": 0
+    },
+    "12": {
+        "de": [
+            "april"
+        ],
+        "es": [
+            "abril"
+        ],
+        "points": 0
+    },
+    "120": {
+        "de": [
+            "der Fehler"
+        ],
+        "es": [
+            "el error"
+        ],
+        "points": 0
+    },
+    "121": {
+        "de": [
+            "der Freitag"
+        ],
+        "es": [
+            "el viernes"
+        ],
+        "points": 0
+    },
+    "122": {
+        "de": [
+            "der Fr\u00fchling"
+        ],
+        "es": [
+            "la primavera"
+        ],
+        "points": 0
+    },
+    "123": {
+        "de": [
+            "der Fu\u00df"
+        ],
+        "es": [
+            "el pie"
+        ],
+        "points": 0
+    },
+    "124": {
+        "de": [
+            "der Gluckwunsch"
+        ],
+        "es": [
+            "las felicitaciones"
+        ],
+        "points": 0
+    },
+    "125": {
+        "de": [
+            "der Gru\u00df",
+            "die Anrede"
+        ],
+        "es": [
+            "el saludo"
+        ],
+        "points": 0
+    },
+    "126": {
+        "de": [
+            "der Handwerker"
+        ],
+        "es": [
+            "el artesano"
+        ],
+        "points": 0
+    },
+    "127": {
+        "de": [
+            "der Herbst"
+        ],
+        "es": [
+            "el oto\u00f1o"
+        ],
+        "points": 0
+    },
+    "128": {
+        "de": [
+            "der Herd"
+        ],
+        "es": [
+            "la estufa"
+        ],
+        "points": 0
+    },
+    "129": {
+        "de": [
+            "der Hof"
+        ],
+        "es": [
+            "la granja",
+            "la finca",
+            "el corral"
+        ],
+        "points": 0
+    },
+    "13": {
+        "de": [
+            "auf"
+        ],
+        "es": [
+            "en",
+            "hasta",
+            "por"
+        ],
+        "points": 0
+    },
+    "130": {
+        "de": [
+            "der Hund"
+        ],
+        "es": [
+            "el perro"
+        ],
+        "points": 0
+    },
+    "131": {
+        "de": [
+            "der Jugendliche"
+        ],
+        "es": [
+            "la juventud"
+        ],
+        "points": 0
+    },
+    "132": {
+        "de": [
+            "der Koffer"
+        ],
+        "es": [
+            "la maleta"
+        ],
+        "points": 0
+    },
+    "133": {
+        "de": [
+            "der Kuchen"
+        ],
+        "es": [
+            "el pastel"
+        ],
+        "points": 0
+    },
+    "134": {
+        "de": [
+            "der Kugelschreiber"
+        ],
+        "es": [
+            "el bol\u00edgrafo",
+            "el lapicero"
+        ],
+        "points": 0
+    },
+    "135": {
+        "de": [
+            "der Kunde",
+            "die Kunde"
+        ],
+        "es": [
+            "el cliente"
+        ],
+        "points": 0
+    },
+    "136": {
+        "de": [
+            "der K\u00fchlschrank"
+        ],
+        "es": [
+            "el refrigerador"
+        ],
+        "points": 0
+    },
+    "137": {
+        "de": [
+            "der Laden"
+        ],
+        "es": [
+            "la tienda",
+            "el negocio"
+        ],
+        "points": 0
+    },
+    "138": {
+        "de": [
+            "der Lastkraftwagen"
+        ],
+        "es": [
+            "cami\u00f3n",
+            "cami\u00f3n de carga"
+        ],
+        "points": 0
+    },
+    "139": {
+        "de": [
+            "der Mann"
+        ],
+        "es": [
+            "el hombre"
+        ],
+        "points": 0
+    },
+    "14": {
+        "de": [
+            "auf sein"
+        ],
+        "es": [
+            "estar abierto",
+            "estar encendido"
+        ],
+        "points": 0
+    },
+    "140": {
+        "de": [
+            "der Mittwoch"
+        ],
+        "es": [
+            "el mi\u00e9rcoles"
+        ],
+        "points": 0
+    },
+    "141": {
+        "de": [
+            "der Montag"
+        ],
+        "es": [
+            "el lunes"
+        ],
+        "points": 0
+    },
+    "142": {
+        "de": [
+            "der Mund"
+        ],
+        "es": [
+            "la boca"
+        ],
+        "points": 0
+    },
+    "143": {
+        "de": [
+            "der Ort",
+            "die Stelle"
+        ],
+        "es": [
+            "el lugar"
+        ],
+        "points": 0
+    },
+    "144": {
+        "de": [
+            "der Raum"
+        ],
+        "es": [
+            "la habitaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "145": {
+        "de": [
+            "der Reisef\u00fchrer"
+        ],
+        "es": [
+            "el gu\u00eda de viajes",
+            "la gu\u00eda"
+        ],
+        "points": 0
+    },
+    "146": {
+        "de": [
+            "der Saft"
+        ],
+        "es": [
+            "el jugo"
+        ],
+        "points": 0
+    },
+    "147": {
+        "de": [
+            "der Samstag"
+        ],
+        "es": [
+            "el s\u00e1bado"
+        ],
+        "points": 0
+    },
+    "148": {
+        "de": [
+            "der Schalter"
+        ],
+        "es": [
+            "el interruptor",
+            "el switch"
+        ],
+        "points": 0
+    },
+    "149": {
+        "de": [
+            "der Schinken"
+        ],
+        "es": [
+            "el jam\u00f3n"
+        ],
+        "points": 0
+    },
+    "15": {
+        "de": [
+            "aufh\u00f6ren"
+        ],
+        "es": [
+            "parar",
+            "cesar",
+            "terminar",
+            "interrumpir",
+            "acabar"
+        ],
+        "points": 0
+    },
+    "150": {
+        "de": [
+            "der Sonntag"
+        ],
+        "es": [
+            "el domingo"
+        ],
+        "points": 0
+    },
+    "151": {
+        "de": [
+            "der Steig"
+        ],
+        "es": [
+            "el sendero"
+        ],
+        "points": 0
+    },
+    "152": {
+        "de": [
+            "der Stock"
+        ],
+        "es": [
+            "el piso"
+        ],
+        "points": 0
+    },
+    "153": {
+        "de": [
+            "der Strand"
+        ],
+        "es": [
+            "la playa"
+        ],
+        "points": 0
+    },
+    "154": {
+        "de": [
+            "der Teich"
+        ],
+        "es": [
+            "el estanque"
+        ],
+        "points": 0
+    },
+    "155": {
+        "de": [
+            "der Termin"
+        ],
+        "es": [
+            "la cita"
+        ],
+        "points": 0
+    },
+    "156": {
+        "de": [
+            "der Unterricht"
+        ],
+        "es": [
+            "la lecci\u00f3n"
+        ],
+        "points": 0
+    },
+    "157": {
+        "de": [
+            "der Urlaub"
+        ],
+        "es": [
+            "las vacaciones"
+        ],
+        "points": 0
+    },
+    "158": {
+        "de": [
+            "der Verein"
+        ],
+        "es": [
+            "la asociaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "159": {
+        "de": [
+            "der Vogel"
+        ],
+        "es": [
+            "el p\u00e1jaro"
+        ],
+        "points": 0
+    },
+    "16": {
+        "de": [
+            "aufstehen"
+        ],
+        "es": [
+            "levantarse",
+            "pararse",
+            "ponerse de pie",
+            "estar abierto"
+        ],
+        "points": 0
+    },
+    "160": {
+        "de": [
+            "der Weg"
+        ],
+        "es": [
+            "el camino",
+            "el sendero"
+        ],
+        "points": 0
+    },
+    "161": {
+        "de": [
+            "der Winter"
+        ],
+        "es": [
+            "el invierno"
+        ],
+        "points": 0
+    },
+    "162": {
+        "de": [
+            "der Zoll"
+        ],
+        "es": [
+            "la aduana"
+        ],
+        "points": 0
+    },
+    "163": {
+        "de": [
+            "deshalb"
+        ],
+        "es": [
+            "por lo tanto",
+            "por eso"
+        ],
+        "points": 0
+    },
+    "164": {
+        "de": [
+            "dezember"
+        ],
+        "es": [
+            "diciembre"
+        ],
+        "points": 0
+    },
+    "165": {
+        "de": [
+            "die Angestellte"
+        ],
+        "es": [
+            "el asalariado",
+            "el empleado"
+        ],
+        "points": 0
+    },
+    "166": {
+        "de": [
+            "die Anmeldung"
+        ],
+        "es": [
+            "el registro",
+            "la inscripci\u00f3n"
+        ],
+        "points": 0
+    },
+    "168": {
+        "de": [
+            "die Ansage"
+        ],
+        "es": [
+            "el anuncio"
+        ],
+        "points": 0
+    },
+    "169": {
+        "de": [
+            "die Anzeige"
+        ],
+        "es": [
+            "la noticia",
+            "la rese\u00f1a"
+        ],
+        "points": 0
+    },
+    "17": {
+        "de": [
+            "august"
+        ],
+        "es": [
+            "agosto"
+        ],
+        "points": 0
+    },
+    "170": {
+        "de": [
+            "die Aufgabe"
+        ],
+        "es": [
+            "la tarea",
+            "la obligaci\u00f3n",
+            "el deber"
+        ],
+        "points": 0
+    },
+    "171": {
+        "de": [
+            "die Ausbildung"
+        ],
+        "es": [
+            "la preparaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "172": {
+        "de": [
+            "die Aussage"
+        ],
+        "es": [
+            "la declaraci\u00f3n"
+        ],
+        "points": 0
+    },
+    "173": {
+        "de": [
+            "die Bahn"
+        ],
+        "es": [
+            "el tren"
+        ],
+        "points": 0
+    },
+    "174": {
+        "de": [
+            "die Behandlung"
+        ],
+        "es": [
+            "el tratamiento"
+        ],
+        "points": 0
+    },
+    "175": {
+        "de": [
+            "die Bekannte"
+        ],
+        "es": [
+            "la conocida"
+        ],
+        "points": 0
+    },
+    "176": {
+        "de": [
+            "die Birne"
+        ],
+        "es": [
+            "la pera"
+        ],
+        "points": 0
+    },
+    "177": {
+        "de": [
+            "die Bitte"
+        ],
+        "es": [
+            "la solicitud"
+        ],
+        "points": 0
+    },
+    "178": {
+        "de": [
+            "die Blume"
+        ],
+        "es": [
+            "la flor"
+        ],
+        "points": 0
+    },
+    "179": {
+        "de": [
+            "die Ehefrau"
+        ],
+        "es": [
+            "la esposa",
+            "la mujer"
+        ],
+        "points": 0
+    },
+    "18": {
+        "de": [
+            "aus"
+        ],
+        "es": [
+            "concluido",
+            "terminado",
+            "acabado",
+            "entre",
+            "desde",
+            "por"
+        ],
+        "points": 0
+    },
+    "180": {
+        "de": [
+            "die Einkunft"
+        ],
+        "es": [
+            "la llegada",
+            "la venida"
+        ],
+        "points": 0
+    },
+    "181": {
+        "de": [
+            "die Einladung"
+        ],
+        "es": [
+            "la invitaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "182": {
+        "de": [
+            "die Entschuldigung"
+        ],
+        "es": [
+            "la disculpa",
+            "la excusa"
+        ],
+        "points": 0
+    },
+    "183": {
+        "de": [
+            "die Farbe"
+        ],
+        "es": [
+            "el color"
+        ],
+        "points": 0
+    },
+    "184": {
+        "de": [
+            "die Frau"
+        ],
+        "es": [
+            "la mujer"
+        ],
+        "points": 0
+    },
+    "185": {
+        "de": [
+            "die F\u00fchrung"
+        ],
+        "es": [
+            "el liderazgo"
+        ],
+        "points": 0
+    },
+    "186": {
+        "de": [
+            "die Halle"
+        ],
+        "es": [
+            "la sala"
+        ],
+        "points": 0
+    },
+    "187": {
+        "de": [
+            "die Haltestelle"
+        ],
+        "es": [
+            "la parada"
+        ],
+        "points": 0
+    },
+    "188": {
+        "de": [
+            "die Hand"
+        ],
+        "es": [
+            "la mano"
+        ],
+        "points": 0
+    },
+    "189": {
+        "de": [
+            "die Hauptstadt"
+        ],
+        "es": [
+            "la capital"
+        ],
+        "points": 0
+    },
+    "19": {
+        "de": [
+            "aus sein"
+        ],
+        "es": [
+            "estar apagado",
+            "estar encendido"
+        ],
+        "points": 0
+    },
+    "190": {
+        "de": [
+            "die Hausaufgabe"
+        ],
+        "es": [
+            "los deberes",
+            "la tarea"
+        ],
+        "points": 0
+    },
+    "191": {
+        "de": [
+            "die Hefe"
+        ],
+        "es": [
+            "la levadura"
+        ],
+        "points": 0
+    },
+    "192": {
+        "de": [
+            "die Heimat"
+        ],
+        "es": [
+            "la patria"
+        ],
+        "points": 0
+    },
+    "193": {
+        "de": [
+            "die Herkunft"
+        ],
+        "es": [
+            "el or\u00edgen"
+        ],
+        "points": 0
+    },
+    "194": {
+        "de": [
+            "die Hilfe"
+        ],
+        "es": [
+            "la ayuda"
+        ],
+        "points": 0
+    },
+    "195": {
+        "de": [
+            "die Hochzeit"
+        ],
+        "es": [
+            "la boda"
+        ],
+        "points": 0
+    },
+    "196": {
+        "de": [
+            "die Insel"
+        ],
+        "es": [
+            "la isla"
+        ],
+        "points": 0
+    },
+    "197": {
+        "de": [
+            "die Karte"
+        ],
+        "es": [
+            "la tarjeta"
+        ],
+        "points": 0
+    },
+    "198": {
+        "de": [
+            "die Kasse"
+        ],
+        "es": [
+            "la taquilla"
+        ],
+        "points": 0
+    },
+    "199": {
+        "de": [
+            "die Katze"
+        ],
+        "es": [
+            "el gato"
+        ],
+        "points": 0
+    },
+    "2": {
+        "de": [
+            "absender"
+        ],
+        "es": [
+            "remitente",
+            "transmisor"
+        ],
+        "points": 0
+    },
+    "20": {
+        "de": [
+            "ausf\u00fcllen"
+        ],
+        "es": [
+            "llenar",
+            "rellenar"
+        ],
+        "points": 0
+    },
+    "200": {
+        "de": [
+            "die Kleidung"
+        ],
+        "es": [
+            "la ropa"
+        ],
+        "points": 0
+    },
+    "202": {
+        "de": [
+            "die K\u00fcche"
+        ],
+        "es": [
+            "la cocina"
+        ],
+        "points": 0
+    },
+    "203": {
+        "de": [
+            "die L\u00f6sung"
+        ],
+        "es": [
+            "la soluci\u00f3n"
+        ],
+        "points": 0
+    },
+    "204": {
+        "de": [
+            "die Maus"
+        ],
+        "es": [
+            "el rat\u00f3n"
+        ],
+        "points": 0
+    },
+    "205": {
+        "de": [
+            "die Mitte"
+        ],
+        "es": [
+            "el medio"
+        ],
+        "points": 0
+    },
+    "206": {
+        "de": [
+            "die M\u00f6bel"
+        ],
+        "es": [
+            "el mueble"
+        ],
+        "points": 0
+    },
+    "207": {
+        "de": [
+            "die N\u00e4he"
+        ],
+        "es": [
+            "la proximidad",
+            "la cercan\u00eda"
+        ],
+        "points": 0
+    },
+    "208": {
+        "de": [
+            "die Ordnung"
+        ],
+        "es": [
+            "el orden"
+        ],
+        "points": 0
+    },
+    "209": {
+        "de": [
+            "die Pommes frites"
+        ],
+        "es": [
+            "las papas fritas"
+        ],
+        "points": 0
+    },
+    "21": {
+        "de": [
+            "ausmachen"
+        ],
+        "es": [
+            "apagar",
+            "extinguir"
+        ],
+        "points": 0
+    },
+    "210": {
+        "de": [
+            "die Post"
+        ],
+        "es": [
+            "el correo"
+        ],
+        "points": 0
+    },
+    "211": {
+        "de": [
+            "die Postleitzahl"
+        ],
+        "es": [
+            "el c\u00f3digo postal"
+        ],
+        "points": 0
+    },
+    "212": {
+        "de": [
+            "die Praxis"
+        ],
+        "es": [
+            "la pr\u00e1ctica",
+            "la consulta"
+        ],
+        "points": 0
+    },
+    "213": {
+        "de": [
+            "die Rechnung"
+        ],
+        "es": [
+            "la factura",
+            "la cuenta"
+        ],
+        "points": 0
+    },
+    "214": {
+        "de": [
+            "die Reise"
+        ],
+        "es": [
+            "el viaje"
+        ],
+        "points": 0
+    },
+    "215": {
+        "de": [
+            "die Reparatur"
+        ],
+        "es": [
+            "la reparaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "216": {
+        "de": [
+            "die Sehensw\u00fcrdigkeiten"
+        ],
+        "es": [
+            "la vista",
+            "el paisaje"
+        ],
+        "points": 0
+    },
+    "217": {
+        "de": [
+            "die Speise"
+        ],
+        "es": [
+            "la comida",
+            "el guiso"
+        ],
+        "points": 0
+    },
+    "218": {
+        "de": [
+            "die Speisekarte"
+        ],
+        "es": [
+            "el men\u00fa"
+        ],
+        "points": 0
+    },
+    "22": {
+        "de": [
+            "aussehen"
+        ],
+        "es": [
+            "apariencia",
+            "mirada"
+        ],
+        "points": 0
+    },
+    "220": {
+        "de": [
+            "die Tasche"
+        ],
+        "es": [
+            "la bolsa"
+        ],
+        "points": 0
+    },
+    "221": {
+        "de": [
+            "die Treppe"
+        ],
+        "es": [
+            "las escaleras"
+        ],
+        "points": 0
+    },
+    "222": {
+        "de": [
+            "die Umgebung"
+        ],
+        "es": [
+            "el entorno",
+            "los alrededores"
+        ],
+        "points": 0
+    },
+    "223": {
+        "de": [
+            "die Unterschrift"
+        ],
+        "es": [
+            "la firma"
+        ],
+        "points": 0
+    },
+    "224": {
+        "de": [
+            "die Verwandte"
+        ],
+        "es": [
+            "los parientes"
+        ],
+        "points": 0
+    },
+    "225": {
+        "de": [
+            "die Vorstellung"
+        ],
+        "es": [
+            "la idea",
+            "la noci\u00f3n"
+        ],
+        "points": 0
+    },
+    "226": {
+        "de": [
+            "die Vorwahl"
+        ],
+        "es": [
+            "el c\u00f3digo"
+        ],
+        "points": 0
+    },
+    "227": {
+        "de": [
+            "die Zahl"
+        ],
+        "es": [
+            "el n\u00famero",
+            "el entero"
+        ],
+        "points": 0
+    },
+    "228": {
+        "de": [
+            "die Zutat"
+        ],
+        "es": [
+            "el ingrediente"
+        ],
+        "points": 0
+    },
+    "23": {
+        "de": [
+            "aussteigen"
+        ],
+        "es": [
+            "bajar",
+            "salir",
+            "retirarse",
+            "volver"
+        ],
+        "points": 0
+    },
+    "230": {
+        "de": [
+            "drau\u00dfen"
+        ],
+        "es": [
+            "afuera",
+            "fuera",
+            "al aire libre"
+        ],
+        "points": 0
+    },
+    "231": {
+        "de": [
+            "dr\u00fccken"
+        ],
+        "es": [
+            "imprimir"
+        ],
+        "points": 0
+    },
+    "232": {
+        "de": [
+            "durch"
+        ],
+        "es": [
+            "mediante",
+            "a trav\u00e9s de",
+            "gracias a",
+            "por",
+            "por medio de"
+        ],
+        "points": 0
+    },
+    "233": {
+        "de": [
+            "eilig"
+        ],
+        "es": [
+            "apresuradamente",
+            "r\u00e1pido",
+            "urgente"
+        ],
+        "points": 0
+    },
+    "234": {
+        "de": [
+            "ein Pfund"
+        ],
+        "es": [
+            "una libra"
+        ],
+        "points": 0
+    },
+    "235": {
+        "de": [
+            "einkaufen"
+        ],
+        "es": [
+            "ir de compras"
+        ],
+        "points": 0
+    },
+    "236": {
+        "de": [
+            "einladen"
+        ],
+        "es": [
+            "invitar"
+        ],
+        "points": 0
+    },
+    "237": {
+        "de": [
+            "einsteigen"
+        ],
+        "es": [
+            "entrar",
+            "subir",
+            "abordar"
+        ],
+        "points": 0
+    },
+    "238": {
+        "de": [
+            "entfernt"
+        ],
+        "es": [
+            "remoto",
+            "distante"
+        ],
+        "points": 0
+    },
+    "239": {
+        "de": [
+            "erhalten"
+        ],
+        "es": [
+            "recibir",
+            "obtener"
+        ],
+        "points": 0
+    },
+    "24": {
+        "de": [
+            "ausziehn"
+        ],
+        "es": [
+            "desvestirse"
+        ],
+        "points": 0
+    },
+    "240": {
+        "de": [
+            "erlauben"
+        ],
+        "es": [
+            "permitir"
+        ],
+        "points": 0
+    },
+    "241": {
+        "de": [
+            "erreichen"
+        ],
+        "es": [
+            "alcanzar"
+        ],
+        "points": 0
+    },
+    "242": {
+        "de": [
+            "erz\u00e4hlen"
+        ],
+        "es": [
+            "decir",
+            "contar"
+        ],
+        "points": 0
+    },
+    "243": {
+        "de": [
+            "faul"
+        ],
+        "es": [
+            "flojo"
+        ],
+        "points": 0
+    },
+    "244": {
+        "de": [
+            "februar"
+        ],
+        "es": [
+            "febrero"
+        ],
+        "points": 0
+    },
+    "245": {
+        "de": [
+            "fehlendes"
+        ],
+        "es": [
+            "desaparecido"
+        ],
+        "points": 0
+    },
+    "246": {
+        "de": [
+            "fehlt"
+        ],
+        "es": [
+            "faltar"
+        ],
+        "points": 0
+    },
+    "247": {
+        "de": [
+            "feiern"
+        ],
+        "es": [
+            "celebrar"
+        ],
+        "points": 0
+    },
+    "248": {
+        "de": [
+            "feststellen"
+        ],
+        "es": [
+            "verificar",
+            "comprobar"
+        ],
+        "points": 0
+    },
+    "249": {
+        "de": [
+            "fremd"
+        ],
+        "es": [
+            "extranjero"
+        ],
+        "points": 0
+    },
+    "25": {
+        "de": [
+            "au\u00dferdem"
+        ],
+        "es": [
+            "tambi\u00e9n",
+            "adem\u00e1s",
+            "adem\u00e1s de"
+        ],
+        "points": 0
+    },
+    "250": {
+        "de": [
+            "fr\u00fch"
+        ],
+        "es": [
+            "temprano"
+        ],
+        "points": 0
+    },
+    "251": {
+        "de": [
+            "geboren"
+        ],
+        "es": [
+            "nacido"
+        ],
+        "points": 0
+    },
+    "252": {
+        "de": [
+            "gelb"
+        ],
+        "es": [
+            "amarillo"
+        ],
+        "points": 0
+    },
+    "253": {
+        "de": [
+            "gerade"
+        ],
+        "es": [
+            "justo",
+            "mismamente",
+            "al mismo tiempo",
+            "exactamente"
+        ],
+        "points": 0
+    },
+    "254": {
+        "de": [
+            "geradeaus"
+        ],
+        "es": [
+            "directamente",
+            "de frente",
+            "derecho"
+        ],
+        "points": 0
+    },
+    "255": {
+        "de": [
+            "gern"
+        ],
+        "es": [
+            "con alegr\u00eda",
+            "gustoso"
+        ],
+        "points": 0
+    },
+    "256": {
+        "de": [
+            "gerne"
+        ],
+        "es": [
+            "con alegr\u00eda"
+        ],
+        "points": 0
+    },
+    "257": {
+        "de": [
+            "gestern"
+        ],
+        "es": [
+            "ayer"
+        ],
+        "points": 0
+    },
+    "258": {
+        "de": [
+            "gestorben"
+        ],
+        "es": [
+            "muerto"
+        ],
+        "points": 0
+    },
+    "259": {
+        "de": [
+            "ge\u00f6ffnet"
+        ],
+        "es": [
+            "abierto"
+        ],
+        "points": 0
+    },
+    "26": {
+        "de": [
+            "bald"
+        ],
+        "es": [
+            "pronto",
+            "en breve",
+            "en poco"
+        ],
+        "points": 0
+    },
+    "260": {
+        "de": [
+            "gleich"
+        ],
+        "es": [
+            "reci\u00e9n",
+            "en seguida",
+            "al instante"
+        ],
+        "points": 0
+    },
+    "261": {
+        "de": [
+            "gl\u00fccklich"
+        ],
+        "es": [
+            "feliz"
+        ],
+        "points": 0
+    },
+    "262": {
+        "de": [
+            "gratulieren"
+        ],
+        "es": [
+            "felicitar"
+        ],
+        "points": 0
+    },
+    "263": {
+        "de": [
+            "grau"
+        ],
+        "es": [
+            "gris"
+        ],
+        "points": 0
+    },
+    "264": {
+        "de": [
+            "gr\u00fcn"
+        ],
+        "es": [
+            "verde"
+        ],
+        "points": 0
+    },
+    "265": {
+        "de": [
+            "g\u00fcltig"
+        ],
+        "es": [
+            "v\u00e1lido",
+            "verdadero"
+        ],
+        "points": 0
+    },
+    "266": {
+        "de": [
+            "g\u00fcnstig"
+        ],
+        "es": [
+            "favorable",
+            "ventajoso",
+            "oportuno"
+        ],
+        "points": 0
+    },
+    "267": {
+        "de": [
+            "heiraten"
+        ],
+        "es": [
+            "casar"
+        ],
+        "points": 0
+    },
+    "268": {
+        "de": [
+            "hei\u00dfen"
+        ],
+        "es": [
+            "llamar"
+        ],
+        "points": 0
+    },
+    "269": {
+        "de": [
+            "helfen"
+        ],
+        "es": [
+            "apoyar",
+            "ayudar",
+            "respaldar"
+        ],
+        "points": 0
+    },
+    "27": {
+        "de": [
+            "bar"
+        ],
+        "es": [
+            "efectivo"
+        ],
+        "points": 0
+    },
+    "270": {
+        "de": [
+            "hell"
+        ],
+        "es": [
+            "brillante",
+            "iluminado",
+            "claro"
+        ],
+        "points": 0
+    },
+    "271": {
+        "de": [
+            "her",
+            "hier"
+        ],
+        "es": [
+            "aqu\u00ed"
+        ],
+        "points": 0
+    },
+    "272": {
+        "de": [
+            "herzlich"
+        ],
+        "es": [
+            "cordialmente",
+            "afectuoso",
+            "cari\u00f1oso"
+        ],
+        "points": 0
+    },
+    "274": {
+        "de": [
+            "holen"
+        ],
+        "es": [
+            "traer"
+        ],
+        "points": 0
+    },
+    "275": {
+        "de": [
+            "h\u00fcbsch"
+        ],
+        "es": [
+            "guapo"
+        ],
+        "points": 0
+    },
+    "276": {
+        "de": [
+            "immer"
+        ],
+        "es": [
+            "siempre"
+        ],
+        "points": 0
+    },
+    "277": {
+        "de": [
+            "insgesamt"
+        ],
+        "es": [
+            "en total"
+        ],
+        "points": 0
+    },
+    "278": {
+        "de": [
+            "januar"
+        ],
+        "es": [
+            "enero"
+        ],
+        "points": 0
+    },
+    "279": {
+        "de": [
+            "juli"
+        ],
+        "es": [
+            "julio"
+        ],
+        "points": 0
+    },
+    "28": {
+        "de": [
+            "behandeln"
+        ],
+        "es": [
+            "tratar",
+            "manejar",
+            "manipular"
+        ],
+        "points": 0
+    },
+    "280": {
+        "de": [
+            "jung"
+        ],
+        "es": [
+            "j\u00f3ven"
+        ],
+        "points": 0
+    },
+    "281": {
+        "de": [
+            "juni"
+        ],
+        "es": [
+            "junio"
+        ],
+        "points": 0
+    },
+    "282": {
+        "de": [
+            "kaputt"
+        ],
+        "es": [
+            "roto",
+            "arruinado"
+        ],
+        "points": 0
+    },
+    "283": {
+        "de": [
+            "kaufen"
+        ],
+        "es": [
+            "comprar"
+        ],
+        "points": 0
+    },
+    "284": {
+        "de": [
+            "kennenlernen"
+        ],
+        "es": [
+            "conocer"
+        ],
+        "points": 0
+    },
+    "285": {
+        "de": [
+            "klar"
+        ],
+        "es": [
+            "claro",
+            "n\u00edtido",
+            "evidente"
+        ],
+        "points": 0
+    },
+    "286": {
+        "de": [
+            "kochen"
+        ],
+        "es": [
+            "cocinar"
+        ],
+        "points": 0
+    },
+    "287": {
+        "de": [
+            "krank"
+        ],
+        "es": [
+            "enfermo"
+        ],
+        "points": 0
+    },
+    "288": {
+        "de": [
+            "kurz"
+        ],
+        "es": [
+            "corto"
+        ],
+        "points": 0
+    },
+    "289": {
+        "de": [
+            "k\u00fcmmern"
+        ],
+        "es": [
+            "preocupar"
+        ],
+        "points": 0
+    },
+    "29": {
+        "de": [
+            "bei"
+        ],
+        "es": [
+            "en",
+            "a",
+            "con"
+        ],
+        "points": 0
+    },
+    "290": {
+        "de": [
+            "lachen"
+        ],
+        "es": [
+            "risa",
+            "re\u00edrse"
+        ],
+        "points": 0
+    },
+    "291": {
+        "de": [
+            "langsam"
+        ],
+        "es": [
+            "lento",
+            "despacio tard\u00edo"
+        ],
+        "points": 0
+    },
+    "292": {
+        "de": [
+            "lassen"
+        ],
+        "es": [
+            "permitir",
+            "dejar"
+        ],
+        "points": 0
+    },
+    "293": {
+        "de": [
+            "laufen"
+        ],
+        "es": [
+            "correr",
+            "fluir"
+        ],
+        "points": 0
+    },
+    "294": {
+        "de": [
+            "laut"
+        ],
+        "es": [
+            "fuerte",
+            "ruidoso"
+        ],
+        "points": 0
+    },
+    "295": {
+        "de": [
+            "ledig"
+        ],
+        "es": [
+            "soltero"
+        ],
+        "points": 0
+    },
+    "296": {
+        "de": [
+            "leicht"
+        ],
+        "es": [
+            "f\u00e1cil",
+            "sencillo"
+        ],
+        "points": 0
+    },
+    "297": {
+        "de": [
+            "leider"
+        ],
+        "es": [
+            "desafortunadamente",
+            "por desgracia",
+            "desgraciadamente"
+        ],
+        "points": 0
+    },
+    "298": {
+        "de": [
+            "leise"
+        ],
+        "es": [
+            "silenciosamente",
+            "despacio",
+            "suave",
+            "ligero",
+            "sin ruido"
+        ],
+        "points": 0
+    },
+    "299": {
+        "de": [
+            "lustig"
+        ],
+        "es": [
+            "divertido",
+            "gracioso",
+            "hilarante"
+        ],
+        "points": 0
+    },
+    "3": {
+        "de": [
+            "alt"
+        ],
+        "es": [
+            "viejo"
+        ],
+        "points": 0
+    },
+    "30": {
+        "de": [
+            "beibringen"
+        ],
+        "es": [
+            "ense\u00f1ar"
+        ],
+        "points": 0
+    },
+    "300": {
+        "de": [
+            "mai"
+        ],
+        "es": [
+            "mayo"
+        ],
+        "points": 0
+    },
+    "301": {
+        "de": [
+            "mieten"
+        ],
+        "es": [
+            "alquilar",
+            "rentar"
+        ],
+        "points": 0
+    },
+    "302": {
+        "de": [
+            "mischen"
+        ],
+        "es": [
+            "revolver",
+            "mezclar"
+        ],
+        "points": 0
+    },
+    "303": {
+        "de": [
+            "mitbringen"
+        ],
+        "es": [
+            "llevar",
+            "traer"
+        ],
+        "points": 0
+    },
+    "304": {
+        "de": [
+            "mitkommen"
+        ],
+        "es": [
+            "venir",
+            "acompa\u00f1ar"
+        ],
+        "points": 0
+    },
+    "305": {
+        "de": [
+            "mitmachen"
+        ],
+        "es": [
+            "participar",
+            "asistir"
+        ],
+        "points": 0
+    },
+    "306": {
+        "de": [
+            "mitnehmen"
+        ],
+        "es": [
+            "tomar",
+            "llevar"
+        ],
+        "points": 0
+    },
+    "307": {
+        "de": [
+            "m\u00e4nnlich"
+        ],
+        "es": [
+            "masculino"
+        ],
+        "points": 0
+    },
+    "308": {
+        "de": [
+            "m\u00e4rz"
+        ],
+        "es": [
+            "marzo"
+        ],
+        "points": 0
+    },
+    "309": {
+        "de": [
+            "m\u00f6gen"
+        ],
+        "es": [
+            "desear",
+            "querer"
+        ],
+        "points": 0
+    },
+    "31": {
+        "de": [
+            "beide"
+        ],
+        "es": [
+            "ambos",
+            "los dos"
+        ],
+        "points": 0
+    },
+    "310": {
+        "de": [
+            "m\u00f6glich"
+        ],
+        "es": [
+            "posible"
+        ],
+        "points": 0
+    },
+    "311": {
+        "de": [
+            "m\u00fcde"
+        ],
+        "es": [
+            "cansado",
+            "fatigado"
+        ],
+        "points": 0
+    },
+    "312": {
+        "de": [
+            "nehmen"
+        ],
+        "es": [
+            "tomar",
+            "agarrar"
+        ],
+        "points": 0
+    },
+    "313": {
+        "de": [
+            "nie"
+        ],
+        "es": [
+            "nunca",
+            "jam\u00e1s"
+        ],
+        "points": 0
+    },
+    "314": {
+        "de": [
+            "november"
+        ],
+        "es": [
+            "noviembre"
+        ],
+        "points": 0
+    },
+    "315": {
+        "de": [
+            "nur"
+        ],
+        "es": [
+            "solo",
+            "solamente"
+        ],
+        "points": 0
+    },
+    "316": {
+        "de": [
+            "oben"
+        ],
+        "es": [
+            "por encima",
+            "arriba"
+        ],
+        "points": 0
+    },
+    "317": {
+        "de": [
+            "oder"
+        ],
+        "es": [
+            "o",
+            "u"
+        ],
+        "points": 0
+    },
+    "318": {
+        "de": [
+            "oft"
+        ],
+        "es": [
+            "seguido",
+            "a menudo",
+            "frecuentemente"
+        ],
+        "points": 0
+    },
+    "319": {
+        "de": [
+            "oktober"
+        ],
+        "es": [
+            "octubre"
+        ],
+        "points": 0
+    },
+    "32": {
+        "de": [
+            "bekannt"
+        ],
+        "es": [
+            "conocido"
+        ],
+        "points": 0
+    },
+    "320": {
+        "de": [
+            "pflanzen"
+        ],
+        "es": [
+            "cultivar",
+            "plantar"
+        ],
+        "points": 0
+    },
+    "321": {
+        "de": [
+            "p\u00fcnktlich"
+        ],
+        "es": [
+            "punutal"
+        ],
+        "points": 0
+    },
+    "322": {
+        "de": [
+            "rauchen"
+        ],
+        "es": [
+            "fumar"
+        ],
+        "points": 0
+    },
+    "323": {
+        "de": [
+            "regnen"
+        ],
+        "es": [
+            "llover"
+        ],
+        "points": 0
+    },
+    "324": {
+        "de": [
+            "riechen"
+        ],
+        "es": [
+            "olfatear",
+            "oler"
+        ],
+        "points": 0
+    },
+    "325": {
+        "de": [
+            "rot"
+        ],
+        "es": [
+            "rojo"
+        ],
+        "points": 0
+    },
+    "326": {
+        "de": [
+            "ruhig"
+        ],
+        "es": [
+            "silenciosamente",
+            "en calma",
+            "callado"
+        ],
+        "points": 0
+    },
+    "327": {
+        "de": [
+            "scheinen"
+        ],
+        "es": [
+            "aparecer",
+            "brillar"
+        ],
+        "points": 0
+    },
+    "328": {
+        "de": [
+            "schicken"
+        ],
+        "es": [
+            "enviar",
+            "mandar"
+        ],
+        "points": 0
+    },
+    "33": {
+        "de": [
+            "bekommen"
+        ],
+        "es": [
+            "conseguir",
+            "obtener"
+        ],
+        "points": 0
+    },
+    "330": {
+        "de": [
+            "schwach"
+        ],
+        "es": [
+            "d\u00e9bil"
+        ],
+        "points": 0
+    },
+    "331": {
+        "de": [
+            "schwarz"
+        ],
+        "es": [
+            "negro"
+        ],
+        "points": 0
+    },
+    "332": {
+        "de": [
+            "sch\u00f6n"
+        ],
+        "es": [
+            "bonito",
+            "bello",
+            "hermoso"
+        ],
+        "points": 0
+    },
+    "333": {
+        "de": [
+            "selbstst\u00e4ndig"
+        ],
+        "es": [
+            "independiente",
+            "aut\u00f3nomo"
+        ],
+        "points": 0
+    },
+    "334": {
+        "de": [
+            "september"
+        ],
+        "es": [
+            "septiembre"
+        ],
+        "points": 0
+    },
+    "335": {
+        "de": [
+            "ser Sommer"
+        ],
+        "es": [
+            "el verano"
+        ],
+        "points": 0
+    },
+    "336": {
+        "de": [
+            "sich treffen"
+        ],
+        "es": [
+            "reunirse"
+        ],
+        "points": 0
+    },
+    "337": {
+        "de": [
+            "sofort"
+        ],
+        "es": [
+            "inmediatamente",
+            "en seguida",
+            "al momento"
+        ],
+        "points": 0
+    },
+    "338": {
+        "de": [
+            "stehen"
+        ],
+        "es": [
+            "estar de pie",
+            "estar parado"
+        ],
+        "points": 0
+    },
+    "339": {
+        "de": [
+            "steigen"
+        ],
+        "es": [
+            "subir",
+            "trepar",
+            "montar"
+        ],
+        "points": 0
+    },
+    "34": {
+        "de": [
+            "benutzen"
+        ],
+        "es": [
+            "emplear",
+            "utilizar",
+            "usar"
+        ],
+        "points": 0
+    },
+    "340": {
+        "de": [
+            "stellen"
+        ],
+        "es": [
+            "proporcionar",
+            "colocar",
+            "suministrar"
+        ],
+        "points": 0
+    },
+    "341": {
+        "de": [
+            "umziehen"
+        ],
+        "es": [
+            "mudarse",
+            "trasladarse",
+            "cambiarse la ropa"
+        ],
+        "points": 0
+    },
+    "342": {
+        "de": [
+            "unterschiedlich"
+        ],
+        "es": [
+            "diferente",
+            "distinto"
+        ],
+        "points": 0
+    },
+    "343": {
+        "de": [
+            "untersuchen"
+        ],
+        "es": [
+            "investigar",
+            "inspeccionar"
+        ],
+        "points": 0
+    },
+    "344": {
+        "de": [
+            "verbringen"
+        ],
+        "es": [
+            "pasar",
+            "internar"
+        ],
+        "points": 0
+    },
+    "345": {
+        "de": [
+            "verdienen"
+        ],
+        "es": [
+            "ganar"
+        ],
+        "points": 0
+    },
+    "346": {
+        "de": [
+            "verkaufen"
+        ],
+        "es": [
+            "vender"
+        ],
+        "points": 0
+    },
+    "347": {
+        "de": [
+            "vermieten"
+        ],
+        "es": [
+            "alquilar"
+        ],
+        "points": 0
+    },
+    "348": {
+        "de": [
+            "verschreiben"
+        ],
+        "es": [
+            "perscribir",
+            "recetar"
+        ],
+        "points": 0
+    },
+    "349": {
+        "de": [
+            "verwandte"
+        ],
+        "es": [
+            "pariente"
+        ],
+        "points": 0
+    },
+    "35": {
+        "de": [
+            "bequem"
+        ],
+        "es": [
+            "c\u00f3modo"
+        ],
+        "points": 0
+    },
+    "350": {
+        "de": [
+            "vorsicht"
+        ],
+        "es": [
+            "precauci\u00f3n",
+            "cuidado"
+        ],
+        "points": 0
+    },
+    "351": {
+        "de": [
+            "wandern"
+        ],
+        "es": [
+            "turistear"
+        ],
+        "points": 0
+    },
+    "352": {
+        "de": [
+            "warscheinlich"
+        ],
+        "es": [
+            "probablemente",
+            "posiblemente"
+        ],
+        "points": 0
+    },
+    "353": {
+        "de": [
+            "weiblich"
+        ],
+        "es": [
+            "femenino"
+        ],
+        "points": 0
+    },
+    "354": {
+        "de": [
+            "weit"
+        ],
+        "es": [
+            "lejos"
+        ],
+        "points": 0
+    },
+    "355": {
+        "de": [
+            "weiter"
+        ],
+        "es": [
+            "siguiente",
+            "m\u00e1s",
+            "adicional"
+        ],
+        "points": 0
+    },
+    "356": {
+        "de": [
+            "wei\u00df"
+        ],
+        "es": [
+            "blanco"
+        ],
+        "points": 0
+    },
+    "357": {
+        "de": [
+            "woher"
+        ],
+        "es": [
+            "\u00bfde d\u00f3nde?"
+        ],
+        "points": 0
+    },
+    "358": {
+        "de": [
+            "wohin"
+        ],
+        "es": [
+            "\u00bfa d\u00f3nde?"
+        ],
+        "points": 0
+    },
+    "359": {
+        "de": [
+            "wohl"
+        ],
+        "es": [
+            "bien"
+        ],
+        "points": 0
+    },
+    "36": {
+        "de": [
+            "beraten"
+        ],
+        "es": [
+            "aconsejar",
+            "orientar"
+        ],
+        "points": 0
+    },
+    "360": {
+        "de": [
+            "wollen"
+        ],
+        "es": [
+            "desear",
+            "de lana",
+            "exigir"
+        ],
+        "points": 0
+    },
+    "361": {
+        "de": [
+            "ziel"
+        ],
+        "es": [
+            "destino",
+            "objetivo",
+            "meta"
+        ],
+        "points": 0
+    },
+    "362": {
+        "de": [
+            "zufrieden"
+        ],
+        "es": [
+            "satisfecho"
+        ],
+        "points": 0
+    },
+    "363": {
+        "de": [
+            "zwischen"
+        ],
+        "es": [
+            "entre",
+            "en medio de"
+        ],
+        "points": 0
+    },
+    "364": {
+        "de": [
+            "\u00f6ffnen"
+        ],
+        "es": [
+            "abrir"
+        ],
+        "points": 0
+    },
+    "365": {
+        "de": [
+            "\u00fcbel"
+        ],
+        "es": [
+            "enfermo"
+        ],
+        "points": 0
+    },
+    "366": {
+        "de": [
+            "\u00fcbernachten"
+        ],
+        "es": [
+            "pasar la noche"
+        ],
+        "points": 0
+    },
+    "37": {
+        "de": [
+            "bereiten"
+        ],
+        "es": [
+            "preparar"
+        ],
+        "points": 0
+    },
+    "38": {
+        "de": [
+            "bereits",
+            "schon"
+        ],
+        "es": [
+            "ya"
+        ],
+        "points": 0
+    },
+    "39": {
+        "de": [
+            "besetzt"
+        ],
+        "es": [
+            "ocupado"
+        ],
+        "points": 0
+    },
+    "4": {
+        "de": [
+            "an"
+        ],
+        "es": [
+            "para",
+            "sobre",
+            "junto a"
+        ],
+        "points": 0
+    },
+    "40": {
+        "de": [
+            "besichtigen",
+            "besuchen"
+        ],
+        "es": [
+            "visitar"
+        ],
+        "points": 0
+    },
+    "41": {
+        "de": [
+            "bestellen"
+        ],
+        "es": [
+            "ordenar",
+            "pedir",
+            "encargar"
+        ],
+        "points": 0
+    },
+    "42": {
+        "de": [
+            "bestimmt"
+        ],
+        "es": [
+            "ciertamente"
+        ],
+        "points": 0
+    },
+    "44": {
+        "de": [
+            "bieten"
+        ],
+        "es": [
+            "ofrecer"
+        ],
+        "points": 0
+    },
+    "45": {
+        "de": [
+            "bis"
+        ],
+        "es": [
+            "hasta"
+        ],
+        "points": 0
+    },
+    "46": {
+        "de": [
+            "blau"
+        ],
+        "es": [
+            "azul"
+        ],
+        "points": 0
+    },
+    "47": {
+        "de": [
+            "bleiben"
+        ],
+        "es": [
+            "quedarse"
+        ],
+        "points": 0
+    },
+    "48": {
+        "de": [
+            "brauchen"
+        ],
+        "es": [
+            "necesitar"
+        ],
+        "points": 0
+    },
+    "49": {
+        "de": [
+            "braun"
+        ],
+        "es": [
+            "caf\u00e9"
+        ],
+        "points": 0
+    },
+    "5": {
+        "de": [
+            "anbieten"
+        ],
+        "es": [
+            "proponer",
+            "ofertar"
+        ],
+        "points": 0
+    },
+    "50": {
+        "de": [
+            "breit"
+        ],
+        "es": [
+            "ancho"
+        ],
+        "points": 0
+    },
+    "51": {
+        "de": [
+            "buchstabieren"
+        ],
+        "es": [
+            "deletrear"
+        ],
+        "points": 0
+    },
+    "52": {
+        "de": [
+            "b\u00f6se"
+        ],
+        "es": [
+            "malo"
+        ],
+        "points": 0
+    },
+    "53": {
+        "de": [
+            "circa"
+        ],
+        "es": [
+            "aproximadamente",
+            "m\u00e1s o menos"
+        ],
+        "points": 0
+    },
+    "54": {
+        "de": [
+            "da",
+            "dahin",
+            "dort"
+        ],
+        "es": [
+            "all\u00e1",
+            "all\u00ed",
+            "ah\u00ed"
+        ],
+        "points": 0
+    },
+    "56": {
+        "de": [
+            "darauf"
+        ],
+        "es": [
+            "al respecto",
+            "luego"
+        ],
+        "points": 0
+    },
+    "57": {
+        "de": [
+            "das Angebot"
+        ],
+        "es": [
+            "la oferta"
+        ],
+        "points": 0
+    },
+    "58": {
+        "de": [
+            "das Ausland"
+        ],
+        "es": [
+            "el extranjero"
+        ],
+        "points": 0
+    },
+    "59": {
+        "de": [
+            "das Bad"
+        ],
+        "es": [
+            "el ba\u00f1o"
+        ],
+        "points": 0
+    },
+    "6": {
+        "de": [
+            "anfangen"
+        ],
+        "es": [
+            "empezar",
+            "iniciar",
+            "comenzar"
+        ],
+        "points": 0
+    },
+    "60": {
+        "de": [
+            "das Bein"
+        ],
+        "es": [
+            "la pierna"
+        ],
+        "points": 0
+    },
+    "61": {
+        "de": [
+            "das Bereich",
+            "der Bereich"
+        ],
+        "es": [
+            "el \u00e1rea",
+            "la zona"
+        ],
+        "points": 0
+    },
+    "62": {
+        "de": [
+            "das Bild"
+        ],
+        "es": [
+            "la foto"
+        ],
+        "points": 0
+    },
+    "63": {
+        "de": [
+            "das Brot"
+        ],
+        "es": [
+            "el pan"
+        ],
+        "points": 0
+    },
+    "64": {
+        "de": [
+            "das Dorf"
+        ],
+        "es": [
+            "el pueblo"
+        ],
+        "points": 0
+    },
+    "65": {
+        "de": [
+            "das Ergebnis"
+        ],
+        "es": [
+            "el resultado"
+        ],
+        "points": 0
+    },
+    "66": {
+        "de": [
+            "das Feld"
+        ],
+        "es": [
+            "el campo"
+        ],
+        "points": 0
+    },
+    "67": {
+        "de": [
+            "das Fernsehen"
+        ],
+        "es": [
+            "la televisi\u00f3n"
+        ],
+        "points": 0
+    },
+    "68": {
+        "de": [
+            "das Fieber"
+        ],
+        "es": [
+            "la fiebre"
+        ],
+        "points": 0
+    },
+    "69": {
+        "de": [
+            "das Flugzeug"
+        ],
+        "es": [
+            "el avi\u00f3n"
+        ],
+        "points": 0
+    },
+    "7": {
+        "de": [
+            "ankommen"
+        ],
+        "es": [
+            "llegar",
+            "venir"
+        ],
+        "points": 0
+    },
+    "70": {
+        "de": [
+            "das Gem\u00fcse"
+        ],
+        "es": [
+            "la verdura"
+        ],
+        "points": 0
+    },
+    "71": {
+        "de": [
+            "das Geschwister"
+        ],
+        "es": [
+            "el hermano"
+        ],
+        "points": 0
+    },
+    "72": {
+        "de": [
+            "das Getreide"
+        ],
+        "es": [
+            "el cereal",
+            "los granos"
+        ],
+        "points": 0
+    },
+    "73": {
+        "de": [
+            "das Gewicht"
+        ],
+        "es": [
+            "el peso"
+        ],
+        "points": 0
+    },
+    "74": {
+        "de": [
+            "das Haar"
+        ],
+        "es": [
+            "el pelo"
+        ],
+        "points": 0
+    },
+    "75": {
+        "de": [
+            "das Handy"
+        ],
+        "es": [
+            "el celular",
+            "el cel",
+            "el tel\u00e9fono celular"
+        ],
+        "points": 0
+    },
+    "76": {
+        "de": [
+            "das Hun"
+        ],
+        "es": [
+            "el pollo"
+        ],
+        "points": 0
+    },
+    "77": {
+        "de": [
+            "das Konto"
+        ],
+        "es": [
+            "la cuenta"
+        ],
+        "points": 0
+    },
+    "78": {
+        "de": [
+            "das Lebensmittel"
+        ],
+        "es": [
+            "los v\u00edveres"
+        ],
+        "points": 0
+    },
+    "79": {
+        "de": [
+            "das Lied"
+        ],
+        "es": [
+            "la canci\u00f3n"
+        ],
+        "points": 0
+    },
+    "8": {
+        "de": [
+            "anmachen"
+        ],
+        "es": [
+            "encender",
+            "prender"
+        ],
+        "points": 0
+    },
+    "80": {
+        "de": [
+            "das Meer"
+        ],
+        "es": [
+            "el mar"
+        ],
+        "points": 0
+    },
+    "81": {
+        "de": [
+            "das Mehl"
+        ],
+        "es": [
+            "la harina"
+        ],
+        "points": 0
+    },
+    "82": {
+        "de": [
+            "das M\u00e4dchen"
+        ],
+        "es": [
+            "chica",
+            "muchacha"
+        ],
+        "points": 0
+    },
+    "83": {
+        "de": [
+            "das Pferd"
+        ],
+        "es": [
+            "el caballo"
+        ],
+        "points": 0
+    },
+    "84": {
+        "de": [
+            "das Reiseb\u00fcro"
+        ],
+        "es": [
+            "la agencia de viajes"
+        ],
+        "points": 0
+    },
+    "85": {
+        "de": [
+            "das Salz"
+        ],
+        "es": [
+            "la sal"
+        ],
+        "points": 0
+    },
+    "86": {
+        "de": [
+            "das Schild"
+        ],
+        "es": [
+            "el escudo"
+        ],
+        "points": 0
+    },
+    "87": {
+        "de": [
+            "das Schwein"
+        ],
+        "es": [
+            "el cerdo"
+        ],
+        "points": 0
+    },
+    "88": {
+        "de": [
+            "das Wasser"
+        ],
+        "es": [
+            "el agua"
+        ],
+        "points": 0
+    },
+    "89": {
+        "de": [
+            "das \u00d6l"
+        ],
+        "es": [
+            "el aceite"
+        ],
+        "points": 0
+    },
+    "9": {
+        "de": [
+            "anreisen"
+        ],
+        "es": [
+            "venir",
+            "llegar"
+        ],
+        "points": 0
+    },
+    "90": {
+        "de": [
+            "dazu"
+        ],
+        "es": [
+            "para",
+            "para eso"
+        ],
+        "points": 0
+    },
+    "91": {
+        "de": [
+            "der Abend"
+        ],
+        "es": [
+            "la tarde"
+        ],
+        "points": 0
+    },
+    "92": {
+        "de": [
+            "der Abflug"
+        ],
+        "es": [
+            "el despegue"
+        ],
+        "points": 0
+    },
+    "93": {
+        "de": [
+            "der Anfang"
+        ],
+        "es": [
+            "el inicio",
+            "el comienzo"
+        ],
+        "points": 0
+    },
+    "94": {
+        "de": [
+            "der Anschluss"
+        ],
+        "es": [
+            "la conexi\u00f3n",
+            "la uni\u00f3n",
+            "el enlace"
+        ],
+        "points": 0
+    },
+    "95": {
+        "de": [
+            "der Apfel"
+        ],
+        "es": [
+            "la manzana"
+        ],
+        "points": 0
+    },
+    "96": {
+        "de": [
+            "der Aufzug"
+        ],
+        "es": [
+            "el elevador",
+            "el ascensor"
+        ],
+        "points": 0
+    },
+    "97": {
+        "de": [
+            "der Ausflug"
+        ],
+        "es": [
+            "la excursi\u00f3n"
+        ],
+        "points": 0
+    },
+    "98": {
+        "de": [
+            "der Ausweis"
+        ],
+        "es": [
+            "la identificaci\u00f3n"
+        ],
+        "points": 0
+    },
+    "99": {
+        "de": [
+            "der Bahnsteig"
+        ],
+        "es": [
+            "el and\u00e9n"
+        ],
+        "points": 0
+    }
+}
