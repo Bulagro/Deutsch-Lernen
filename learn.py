@@ -6,6 +6,7 @@ import json
 
 def get_words(WORDS_PER_SESSION=100):
     """ Returns a list with WORDS_PER_SESSION words. """
+
     with open('words.json', 'r') as words_file:
         w = json.load(words_file)
         words_list = []
@@ -13,7 +14,7 @@ def get_words(WORDS_PER_SESSION=100):
         min_points = 0
         while len(words_list) < WORDS_PER_SESSION:
             for word in w:
-                if word == 'total': continue
+                if word == 'total': break
 
                 if w[word]['points'] <= min_points:
                     words_list.append(w[word])
