@@ -42,6 +42,16 @@ def merge_same_meanigns_into_same_entry():
                 f.write(json.dumps(words, indent=4, sort_keys=True))
             return True
 
+def change_point_counter(P: int):
+    words = json.load(open('words.json', 'r'))
+    for w in words:
+        if w == 'total': break;
+        words[w]['points'] = P
+
+    with open('words.json', 'w') as f:
+        f.write(json.dumps(words, indent=4, sort_keys=True))
+
 
 # translate_old_dict()
 # merge_same_meanigns_into_same_entry()
+change_point_counter(1)
