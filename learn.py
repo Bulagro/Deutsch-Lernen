@@ -1,8 +1,5 @@
 import json
 
-# Select n number of words (that's a session).
-# display them in a given direction (zB. german -> spanish)
-# update
 
 def get_words(WORDS_PER_SESSION=100):
     with open('words.json', 'r') as f:
