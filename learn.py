@@ -30,5 +30,27 @@ def select_words(WORDS_PER_SESSION=100):
 
     return words_list
 
+def compare_words(a: str, b: str):
+    """ Returns whether two strings are equal (True), similar (i) or differently (False) written. """
+
+    def count_letters(s: str):
+        return {l : s.count(l) for l in sorted(list(set(s)))}
+
+    if count_letters(a) != count_letters(b):
+        return False
+
+    else:
+        a, b = list(a), list(b)
+        for i in range(len(a)):
+            if b[i] != a[i] and i < len(b) - 1:
+                b[i], b[i + 1] = b[i + 1], b[i]
+
+                if a == b:
+                    return i
+                else:
+                    return False
+
+    return True
+
 def main():
     pass
