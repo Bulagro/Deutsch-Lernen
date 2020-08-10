@@ -4,7 +4,7 @@ import unittest, json
 
 total_words, complete_words_list = learn.get_words()
 
-class TestGetWords(unittest.TestCase):
+class TestSelectWords(unittest.TestCase):
     def test_get_first_100_words(self):
         w = learn.select_words(100)
 
