@@ -2,6 +2,8 @@ import json
 
 
 def get_words():
+    """ Return the ammount of words and a the loaded dictionary from words.json """
+
     with open('words.json', 'r') as f:
         words = json.load(f)
 
