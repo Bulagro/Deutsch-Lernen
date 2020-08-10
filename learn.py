@@ -7,6 +7,7 @@ def get_words():
 
         return(len(words), words)
 
+
 def select_words(WORDS_PER_SESSION=100):
     """ Returns a list with WORDS_PER_SESSION words. """
 
@@ -25,6 +26,7 @@ def select_words(WORDS_PER_SESSION=100):
                 min_points += 1
 
     return words_list
+
 
 def compare_words(a: str, b: str):
     """ Returns whether two strings are equal (True), similar (i) or differently (False) written. """
@@ -47,6 +49,7 @@ def compare_words(a: str, b: str):
                     return False
 
     return True
+
 
 def main():
     pass
