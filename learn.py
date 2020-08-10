@@ -1,19 +1,19 @@
 import json
 
 
-def get_words():
+def get_words(WORDS_FILE='words.json'):
     """ Return the ammount of words and a the loaded dictionary from words.json """
 
-    with open('words.json', 'r') as f:
+    with open(WORDS_FILE, 'r') as f:
         words = json.load(f)
 
         return(len(words), words)
 
 
-def select_words(WORDS_PER_SESSION=100):
+def select_words(WORDS_FILE='words.json', WORDS_PER_SESSION=100):
     """ Returns a list with WORDS_PER_SESSION words. """
 
-    _, w = get_words()
+    _, w = get_words(WORDS_FILE)
 
     words_list = []
     min_points = 0
