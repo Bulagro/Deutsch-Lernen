@@ -34,7 +34,7 @@ def compare_words(a: str, b: str):
     """ Returns whether two strings are equal (True), similar (i) or differently (False) written. """
 
     def count_letters(s: str):
-        return {l : s.count(l) for l in sorted(set(s))}
+        return {l : s.count(l) for l in set(s)}
 
     if count_letters(a) != count_letters(b):
         return False
