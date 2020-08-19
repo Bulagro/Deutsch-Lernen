@@ -9,19 +9,18 @@ def change_point_counter(P: int):
         f.write(json.dumps(words, indent=4))
 
 
-def add_word_to_dict(de: list, es: list, WORDS_FILE='words.json'):
-    words = json.load(open(WORDS_FILE, 'r'))
+def add_word_to_dict(de: list, es: list, words_file='words.json'):
+    words = json.load(open(words_file, 'r'))
 
     word_id = str(len(words))
     word_dict_entry = {
         "de": de,
         "es": es,
-        "points" : 0,
     }
 
     words[word_id] = word_dict_entry
 
-    with open(WORDS_FILE, 'w') as w:
+    with open(words_file, 'w') as w:
         w.write(json.dumps(words, indent=4))
 
 
