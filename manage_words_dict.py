@@ -23,3 +23,14 @@ def add_word_to_dict(de: list, es: list, WORDS_FILE='words.json'):
 
     with open(WORDS_FILE, 'w') as w:
         w.write(json.dumps(words, indent=4))
+
+
+def remove_points_var_from_json():
+    words = json.load(open('words.json', 'r'))
+
+    for w in words:
+        del words[w]['points']
+
+    with open('words.json', 'w') as w:
+        w.write(json.dumps(words, indent=4))
+
