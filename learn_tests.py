@@ -23,6 +23,21 @@ class TestGetWords(unittest.TestCase):
 
         self.assertEqual(actual, expected)
 
+    def test_ignore_word_with_small_id_when_lang_score_is_bigger(self):
+        # Set es_score of 'abholen'::'recoger' to 1.
+        # Don't commit, this is only temporal.
+        cursor.execute('UPDATE words SET es_score=1 WHERE id=3;')
+
+        actual = learn.get_words(3, 'es', cursor)
+        expected = [
+            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0),
+            learn.Word(['emplear'], 0, ['anstellen'], 0),
+        ]
+
+        self.assertEqual(actual, expected)
+        # Revert all changes in this transaction, to prevent interference with other tests.
+        cursor.execute('ROLLBACK;')
+
 
 class TestCompareWords(unittest.TestCase):
     def test_compare_almost_equal_words(self):
