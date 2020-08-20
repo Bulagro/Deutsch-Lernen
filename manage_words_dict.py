@@ -35,10 +35,6 @@ def remove_points_var_from_json():
 
 
 def update_database(words_json='words.json', database='words.sqlite3'):
-    # es: id, meaning
-    # de: id, meaning
-    # words: id, es_id, de_id, es_score, de_score
-
     words_dict = json.load(open(words_json, 'r'))
 
     conn = sqlite3.connect(database)
@@ -59,7 +55,7 @@ def update_database(words_json='words.json', database='words.sqlite3'):
             for word in words_dict[word_id][lang]:
                 c.execute(f'INSERT INTO {lang} (meaning) VALUES ("{word}");')
                 _ids = c.execute(f'SELECT id FROM {lang} WHERE meaning = "{word}";').fetchall()
-                ids[lang] = [n[0] for n in _ids]
+                ids[lang] += [n[0] for n in _ids]
 
         for i in ids['es']:
             for j in ids['de']:
