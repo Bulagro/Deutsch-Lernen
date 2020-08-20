@@ -1,33 +1,69 @@
-import json
+from dataclasses import dataclass
+import sqlite3
 
 
-def get_words(WORDS_FILE='words.json'):
-    """ Return the ammount of words and a the loaded dictionary from words.json """
+@dataclass
+class Word():
+    def __init__(self, es=[], es_score=0, de=[], de_score=0):
+        self.es = es
+        self.de = de
+        self.es_score = es_score
+        self.de_score = de_score
 
-    with open(WORDS_FILE, 'r') as f:
-        words = json.load(f)
+    def __eq__(self, other):
+        if type(other) != type(self):
+            return False
 
-        return(len(words), words)
+        return self.es == other.es and self.de == other.de
+
+    def __repr__(self):
+        return f'{self.es}::{self.de}'
 
 
-def select_words(WORDS_FILE='words.json', WORDS_PER_SESSION=100):
-    """ Returns a list with WORDS_PER_SESSION words. """
+def get_words(ammount: int, lang: str, cursor: sqlite3.Cursor):
+    """ Returns a list of Word()s. """
 
-    _, w = get_words(WORDS_FILE)
+    if lang not in ('es', 'de'): raise Exception(f'Language "{lang}" not supported.')
 
-    words_list = []
-    min_points = 0
-    while len(words_list) < WORDS_PER_SESSION:
-        for word in w:
-            if w[word]['points'] <= min_points:
-                words_list.append(w[word])
+    words_raw = cursor.execute(f"""
+    SELECT
+     es.meaning AS es,
+     es_score,
+     de.meaning AS de,
+     de_score
+    FROM
+     words
+     INNER JOIN es ON es.id = words.es_id
+     INNER JOIN de ON de.id = words.de_id
+    ORDER BY {lang + '_score'}
+    LIMIT 0, {ammount};
+    """).fetchall()
 
-                if len(words_list) == WORDS_PER_SESSION:
-                    break
+    words = []
+    word = None
+
+    # Build words! (merge those that go together)
+    for raw_word in words_raw:
+        es, es_s, de, de_s = raw_word
+
+        if not word:
+            word = Word([es], es_s, [de], de_s)
+        else:
+            if es in word.es:
+                word.de.append(de)
+                word.de_score += de_s
+            elif de in word.de:
+                word.es.append(es)
+                word.es_score += es_s
             else:
-                min_points += 1
+                words.append(word)
+                word = Word([es], es_s, [de], de_s)
+                continue
 
-    return words_list
+    if word:
+        words.append(word)
+
+    return words
 
 
 def compare_words(a: str, b: str):

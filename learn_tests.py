@@ -1,41 +1,27 @@
 import learn
-import unittest, json
+import unittest, sqlite3
 
 
-total_words, complete_words_list = learn.get_words()
+connection = sqlite3.connect('words.sqlite3')
+cursor = connection.cursor()
 
-class TestSelectWords(unittest.TestCase):
-    def test_get_first_100_words(self):
-        w = learn.select_words(WORDS_PER_SESSION=100)
-
-        expected_words_list = [
-            complete_words_list[str(i)] for i in range(100)
+class TestGetWords(unittest.TestCase):
+    def test_get_words_returns_list_of_first_word_only(self):
+        actual = learn.get_words(2, 'es', cursor)
+        expected = [
+            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0)
         ]
 
-        self.assertEqual(expected_words_list, w)
+        self.assertEqual(actual, expected)
 
-    def test_get_more_words_than_actual_words_in_dict(self):
-        from os import system
+    def test_get_words_first_two_words(self):
+        actual = learn.get_words(3, 'de', cursor)
+        expected = [
+            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0),
+            learn.Word(['recoger'], 0, ['abholen'], 0),
+        ]
 
-        # Temporary dictionary file
-        with open('tmp_words.json', 'w') as f:
-            new_dict = {
-                i : { "de":"a", "es":"a", "points": 0 }
-                for i in range(3)
-            }
-
-            f.write(json.dumps(new_dict))
-
-        with open('tmp_words.json', 'r') as f:
-            words_dict = json.load(f)
-            selected_words = learn.select_words('tmp_words.json', 6)
-            expected_words = [
-                words_dict[str(i)] for i in range(3)
-            ] * 2
-
-            self.assertEqual(expected_words, selected_words)
-
-        system('rm tmp_words.json')
+        self.assertEqual(actual, expected)
 
 
 class TestCompareWords(unittest.TestCase):
