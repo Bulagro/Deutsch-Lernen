@@ -40,11 +40,28 @@ def get_words(ammount: int, lang: str, cursor: sqlite3.Cursor):
     """).fetchall()
 
     words = []
+    word = None
 
-    # Build words!
+    # Build words! (merge those that go together)
     for raw_word in words_raw:
         es, es_s, de, de_s = raw_word
-        words.append(Word(es, es_s, de, de_s))
+
+        if not word:
+            word = Word([es], es_s, [de], de_s)
+        else:
+            if es in word.es:
+                word.de.append(de)
+                word.de_score += de_s
+            elif de in word.de:
+                word.es.append(es)
+                word.es_score += es_s
+            else:
+                words.append(word)
+                word = Word([es], es_s, [de], de_s)
+                continue
+
+    if word:
+        words.append(word)
 
     return words
 
