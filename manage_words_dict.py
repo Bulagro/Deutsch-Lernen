@@ -34,7 +34,9 @@ def remove_points_var_from_json():
         w.write(json.dumps(words, indent=4))
 
 
-def update_database(words_json='words.json', database='words.sqlite3'):
+def update_database_from_json(words_json='words.json', database='words.sqlite3'):
+    """ Reads some json file and fills the databse with it's information. """
+
     words_dict = json.load(open(words_json, 'r'))
 
     conn = sqlite3.connect(database)
