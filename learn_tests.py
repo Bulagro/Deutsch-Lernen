@@ -35,6 +35,7 @@ class TestGetWords(unittest.TestCase):
         ]
 
         self.assertEqual(actual, expected)
+
         # Revert all changes in this transaction, to prevent interference with other tests.
         cursor.execute('ROLLBACK;')
 
