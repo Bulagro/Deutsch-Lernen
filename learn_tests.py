@@ -9,7 +9,8 @@ class TestGetWords(unittest.TestCase):
     def test_get_words_returns_list_of_first_word_only(self):
         actual = learn.get_words(2, 'es', cursor)
         expected = [
-            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0)
+            learn.Word('salir', 0, 'abfahren', 0),
+            learn.Word('partir', 0, 'abfahren', 0),
         ]
 
         self.assertEqual(actual, expected)
@@ -17,8 +18,9 @@ class TestGetWords(unittest.TestCase):
     def test_get_words_first_two_words(self):
         actual = learn.get_words(3, 'de', cursor)
         expected = [
-            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0),
-            learn.Word(['recoger'], 0, ['abholen'], 0),
+            learn.Word('salir', 0, 'abfahren', 0),
+            learn.Word('partir', 0, 'abfahren', 0),
+            learn.Word('recoger', 0, 'abholen', 0),
         ]
 
         self.assertEqual(actual, expected)
@@ -30,8 +32,9 @@ class TestGetWords(unittest.TestCase):
 
         actual = learn.get_words(3, 'es', cursor)
         expected = [
-            learn.Word(['salir', 'partir'], 0, ['abfahren'], 0),
-            learn.Word(['emplear'], 0, ['anstellen'], 0),
+            learn.Word('salir', 0, 'abfahren', 0),
+            learn.Word('partir', 0, 'abfahren', 0),
+            learn.Word('emplear', 0, 'anstellen', 0),
         ]
 
         self.assertEqual(actual, expected)
