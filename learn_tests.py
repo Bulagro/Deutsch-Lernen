@@ -68,6 +68,34 @@ class TestCompareWords(unittest.TestCase):
         self.assertTrue(actual)
 
 
+class TestUpdateDatabaseFromClassList(unittest.TestCase):
+    def test_update_one_word(self):
+        words_list = [
+            learn.Word(['salir', 'partir'], 1, ['abfahren'], 0)
+        ]
+
+        expected = [(1, 1, 1, 0), (2, 1, 1, 0)]
+        learn.update_database_from_class_list(words_list, cursor, connection, False)
+
+        actual = cursor.execute('SELECT es_id, es_score, de_id, de_score FROM words WHERE id < 3;').fetchall()
+
+        self.assertEqual(expected, actual)
+        cursor.execute('ROLLBACK;')
+
+    def test_update_two_consecutive_words(self):
+        words_list = [
+            learn.Word(['salir', 'partir'], 1, ['abfahren'], 0),
+            learn.Word(['recoger'], 2, ['abholen'], 0),
+        ]
+
+        expected = [(1, 1, 1, 0), (2, 1, 1, 0), (3, 2, 2, 0)]
+        learn.update_database_from_class_list(words_list, cursor, connection, False)
+
+        actual = cursor.execute('SELECT es_id, es_score, de_id, de_score FROM words WHERE id < 4;').fetchall()
+
+        self.assertEqual(expected, actual)
+        cursor.execute('ROLLBACK;')
+
 
 if __name__ == "__main__":
     unittest.main()
