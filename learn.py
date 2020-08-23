@@ -1,5 +1,6 @@
 from dataclasses import dataclass
-import sqlite3
+from sys import argv
+import sqlite3, json
 
 
 @dataclass
@@ -17,7 +18,74 @@ class Word():
         return self.es == other.es and self.de == other.de
 
     def __repr__(self):
-        return f'{self.es}::{self.de}'
+        return f'{self.es}({self.es_score})::{self.de}({self.de_score})'
+
+
+def update_database_from_json(words_json='words.json', database='words.sqlite3'):
+    """ Reads some json file and fills the databse with it's information. """
+
+    words_dict = json.load(open(words_json, 'r'))
+
+    conn = sqlite3.connect(database)
+    c = conn.cursor()
+
+    # Clear previous database
+    for table in ('words', 'es', 'de'):
+        c.execute(f'DELETE FROM {table};')
+        c.execute(f'DELETE FROM sqlite_sequence WHERE name="{table}";')
+
+    for word_id in words_dict:
+        ids = {
+            'es' : [],
+            'de' : [],
+        }
+
+        for lang in ('es', 'de'):
+            for word in words_dict[word_id][lang]:
+                c.execute(f'INSERT INTO {lang} (meaning) VALUES ("{word}");')
+                _ids = c.execute(f'SELECT id FROM {lang} WHERE meaning = "{word}";').fetchall()
+                ids[lang] += [n[0] for n in _ids]
+
+        for i in ids['es']:
+            for j in ids['de']:
+                c.execute(f"""
+                INSERT INTO words (es_id, es_score, de_id, de_score)
+                VALUES ({i}, 0, {j}, 0);
+                """)
+
+    conn.commit()
+
+
+def update_database_from_class_list(words_list: list, cursor: sqlite3.Cursor, connection: sqlite3.Connection, commit: bool):
+    for word in words_list:
+        for es in word.es:
+            ids = [id[0] for id in cursor.execute(f'SELECT id FROM es WHERE meaning="{es}";').fetchall()]
+            print(ids)
+
+            for id in ids:
+                cursor.execute(f'UPDATE words SET es_score={word.es_score} WHERE es_id={id};')
+                pass
+
+        for de in word.de:
+            ids = [id[0] for id in cursor.execute(f'SELECT id FROM de WHERE meaning="{de}";').fetchall()]
+            print(ids)
+
+            for id in ids:
+                cursor.execute(f'UPDATE words SET de_score={word.de_score} WHERE de_id={id};')
+                pass
+
+    if commit:
+        connection.commit()
+
+
+def reset_database(database='words.sqlite3'):
+    connection = sqlite3.connect(database)
+    cursor = connection.cursor()
+
+    for lang in ('es', 'de'):
+        cursor.execute(f'UPDATE words SET {lang}_score = 0;')
+
+    connection.commit()
 
 
 def get_words(ammount: int, lang: str, cursor: sqlite3.Cursor):
