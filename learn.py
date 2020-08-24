@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from sys import argv
+from os import system
 import sqlite3, json
 
 
@@ -155,5 +156,46 @@ def compare_words(a: str, b: str):
     return True
 
 
-def main():
-    pass
+def main(ammount=10, lang='de'):
+    other_lang = 'de' if lang == 'es' else 'es'
+
+    connection = sqlite3.connect('words.sqlite3')
+    cursor = connection.cursor()
+
+    words_list = get_words(ammount, lang, cursor)
+
+    for word in words_list:
+        system('cls || clear') # This is temporal and only for the CLI.
+        print(', '.join(eval(f'word.{other_lang}')), end='\n\n')
+
+        user_input = input('> ')
+        comparison = None
+
+        if user_input == '.':
+            break
+
+        # Check user input
+        for meaning in eval(f'word.{lang}'):
+            comparison = compare_words(user_input, meaning)
+
+            if comparison == True:
+                if lang == 'es': word.es_score += 2
+                else: word.de_score += 2
+                break
+            elif type(comparison) == int:
+                if lang == 'es': word.es_score += 1
+                else: word.de_score += 1
+                break
+        else:
+            while not comparison:
+                system('cls || clear')
+                print(','.join(eval(f'word.{other_lang}')))
+                print('Nope: ' + ', '.join(eval(f'word.{lang}')), end='\n\n')
+                user_input = input('> ')
+
+                for meaning in eval(f'word.{lang}'):
+                    comparison = compare_words(user_input, meaning)
+                    if comparison: break
+
+    # Update database
+    update_database_from_class_list(words_list, cursor, connection, False)
