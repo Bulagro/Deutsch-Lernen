@@ -60,7 +60,6 @@ def update_database_from_class_list(words_list: list, cursor: sqlite3.Cursor, co
     for word in words_list:
         for es in word.es:
             ids = [id[0] for id in cursor.execute(f'SELECT id FROM es WHERE meaning="{es}";').fetchall()]
-            print(ids)
 
             for id in ids:
                 cursor.execute(f'UPDATE words SET es_score={word.es_score} WHERE es_id={id};')
@@ -68,7 +67,6 @@ def update_database_from_class_list(words_list: list, cursor: sqlite3.Cursor, co
 
         for de in word.de:
             ids = [id[0] for id in cursor.execute(f'SELECT id FROM de WHERE meaning="{de}";').fetchall()]
-            print(ids)
 
             for id in ids:
                 cursor.execute(f'UPDATE words SET de_score={word.de_score} WHERE de_id={id};')
