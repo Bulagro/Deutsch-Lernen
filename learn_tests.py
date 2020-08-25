@@ -1,27 +1,46 @@
 import learn
 import unittest, sqlite3
-
+from json import load as jload
 
 connection = sqlite3.connect('words.sqlite3')
 cursor = connection.cursor()
 
 class TestGetWords(unittest.TestCase):
-    def test_get_words_returns_list_of_first_word_only(self):
-        actual = learn.get_words(2, 'es', cursor)
+    def test_get_one_word(self):
         expected = [
             learn.Word(['salir', 'partir'], 0, ['abfahren'], 0)
         ]
 
-        self.assertEqual(actual, expected)
+        actual = learn.get_words(1, cursor)
 
-    def test_get_words_first_two_words(self):
-        actual = learn.get_words(3, 'de', cursor)
+        self.assertEqual(expected, actual)
+
+    def test_get_two_words(self):
         expected = [
             learn.Word(['salir', 'partir'], 0, ['abfahren'], 0),
             learn.Word(['recoger'], 0, ['abholen'], 0),
         ]
 
-        self.assertEqual(actual, expected)
+        actual = learn.get_words(2, cursor)
+
+        self.assertEqual(expected, actual)
+
+    def test_get_first_ten_words(self):
+        learn.update_database_from_json()
+
+        with open('words.json', 'r') as f:
+            words_json = jload(f)
+            words_json = [words_json[i] for i in range(10)]
+
+            expected = [
+                learn.Word(word['es'], 0, word['de'], 0)
+                for word in words_json
+                ]
+
+            actual = learn.get_words(10, cursor)
+
+            self.assertEqual(expected, actual)
+
 
     def test_ignore_word_with_small_id_when_lang_score_is_bigger(self):
         # Set es_score of 'abholen'::'recoger' to 1.

@@ -43,7 +43,7 @@ def update_database_from_json(words_json='words.json', database='words.sqlite3')
         }
 
         for lang in ('es', 'de'):
-            for word in words_dict[word_id][lang]:
+            for word in word_id[lang]:
                 c.execute(f'INSERT INTO {lang} (meaning) VALUES ("{word}");')
                 _ids = c.execute(f'SELECT id FROM {lang} WHERE meaning = "{word}";').fetchall()
                 ids[lang] += [n[0] for n in _ids]
@@ -107,29 +107,39 @@ def get_words(ammount: int, lang: str, cursor: sqlite3.Cursor):
     LIMIT 0, {ammount};
     """).fetchall()
 
+def get_words(ammount: int, cursor: sqlite3.Cursor):
     words = []
-    word = None
+    i = 0
 
-    # Build words! (merge those that go together)
-    for raw_word in words_raw:
-        es, es_s, de, de_s = raw_word
-
-        if not word:
-            word = Word([es], es_s, [de], de_s)
+    while len(words) < ammount:
+        tmp = cursor.execute(f'SELECT de_id, de_score, es_score FROM words ORDER BY de_score LIMIT {i}, {i + 1};').fetchone()
+        if tmp:
+            de_id, de_score, es_score = tmp
         else:
-            if es in word.es:
-                word.de.append(de)
-                word.de_score += de_s
-            elif de in word.de:
-                word.es.append(es)
-                word.es_score += es_s
-            else:
-                words.append(word)
-                word = Word([es], es_s, [de], de_s)
-                continue
+            break
 
-    if word:
-        words.append(word)
+        es_meanings_id = [i[0] for i in cursor.execute(f'SELECT es_id FROM words WHERE de_id={de_id};').fetchall()]
+        de_meanings_id = []
+
+        for m in es_meanings_id:
+            tmp_de_id = cursor.execute(f'SELECT de_id FROM words WHERE es_id={m};').fetchall()
+            de_meanings_id += [i[0] for i in tmp_de_id]
+
+        de_words = []
+        for de_id in de_meanings_id:
+            for word in cursor.execute(f'SELECT meaning FROM de WHERE id={de_id};'):
+                if word[0] not in de_words:
+                    de_words.append(word[0])
+
+        es_words = []
+        for es_id in es_meanings_id:
+            for word in cursor.execute(f'SELECT meaning FROM es WHERE id={es_id};'):
+                if word[0] not in es_words:
+                    es_words.append(word[0])
+
+        words.append(Word(es_words, es_score, de_words, de_score))
+
+        i += len(de_meanings_id)
 
     return words
 
@@ -163,7 +173,7 @@ def main(ammount=10, lang='de'):
     connection = sqlite3.connect('words.sqlite3')
     cursor = connection.cursor()
 
-    words_list = get_words(ammount, lang, cursor)
+    words_list = get_words(ammount, cursor)
 
     for word in words_list:
         system('cls || clear') # This is temporal and only for the CLI.
