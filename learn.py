@@ -25,7 +25,8 @@ class Word():
 def update_database_from_json(words_json='words.json', database='words.sqlite3'):
     """ Reads some json file and fills the databse with it's information. """
 
-    words_dict = json.load(open(words_json, 'r'))
+    with open(words_json, 'r') as f:
+        words_dict = json.load(f)
 
     conn = sqlite3.connect(database)
     c = conn.cursor()
